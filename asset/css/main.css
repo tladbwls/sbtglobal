@@ -1153,8 +1153,7 @@ to {
     transform: translate(-50%,  -50%);
     transform-origin: center;
 }
-.pc-project-wrap .item-project:hover {background:#4dd6e261
-}
+
 .pc-project-wrap .item-project.item-1 .img-wrap {
     transform: translate(-350%,  -100%);
 }
@@ -1177,13 +1176,13 @@ to {
     transform: translate(-350%,  100%);
 }
 .pc-project-wrap .item-project.item-8 .img-wrap {
-    transform: translate(-150%,  150%);
+    transform: translate(-150%,  150%);background:#4dd6e261
 }
 .pc-project-wrap .item-project.item-9 .img-wrap {
-    transform: translate(150%,  150%);
+    transform: translate(150%,  150%);background:#4dd6e261
 }
 .pc-project-wrap .item-project.item-10 .img-wrap {
-    transform: translate(350%,  100%);
+    transform: translate(350%,  100%);background:#4dd6e261
 }
 .pc-project-wrap .img-logo {
     background-position: center;
