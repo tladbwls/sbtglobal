@@ -349,63 +349,75 @@
 100% {
     transform: rotate(360deg) translate(-120px) rotate(-360deg);
 }
-}@keyframes rotateGlobalAni-m {
+}
+@keyframes rotateGlobalAni-m {
     0% {
     transform: rotate(0deg) translate(120px) rotate(0deg);
 }
 100% {
     transform: rotate(360deg) translate(120px) rotate(-360deg);
 }
-}@keyframes rotateDspAni-md {
+}
+@keyframes rotateDspAni-md {
     0% {
     transform: rotate(0deg) translate(-200px) rotate(0deg);
 }
 100% {
     transform: rotate(360deg) translate(-200px) rotate(-360deg);
 }
-}@keyframes rotateGlobalAni-md {
+}
+@keyframes rotateGlobalAni-md {
     0% {
     transform: rotate(0deg) translate(200px) rotate(0deg);
 }
 100% {
     transform: rotate(360deg) translate(200px) rotate(-360deg);
 }
-}@keyframes rotateDspAni-xl {
+}
+
+@keyframes rotateDspAni-xl {
     0% {
     transform: rotate(0deg) translate(-230px) rotate(0deg);
 }
 100% {
     transform: rotate(360deg) translate(-230px) rotate(-360deg);
 }
-}@keyframes rotateGlobalAni-xl {
+}
+@keyframes rotateGlobalAni-xl {
     0% {
     transform: rotate(0deg) translate(230px) rotate(0deg);
 }
 100% {
     transform: rotate(360deg) translate(230px) rotate(-360deg);
 }
-}@keyframes rotateDspAni-pc {
+}
+
+@keyframes rotateDspAni-pc {
     0% {
     transform: rotate(0deg) translate(-270px) rotate(0deg);
 }
 100% {
     transform: rotate(360deg) translate(-270px) rotate(-360deg);
 }
-}@keyframes rotateGlobalAni-pc {
+}
+@keyframes rotateGlobalAni-pc {
     0% {
     transform: rotate(0deg) translate(270px) rotate(0deg);
 }
 100% {
     transform: rotate(360deg) translate(270px) rotate(-360deg);
 }
-}@keyframes smallRotateAni {
+
+}
+@keyframes smallRotateAni {
     from {
     transform: rotate(0);
 }
 to {
     transform: rotate(-360deg);
 }
-}@keyframes bigRotateAni {
+}
+@keyframes bigRotateAni {
     from {
     transform: rotate(0);
 }
@@ -424,12 +436,14 @@ to {
     padding-top: 15.63314vw;
     padding-bottom: 15.63314vw;
 }
-}@media screen and (min-width: 1920px) {
+}
+@media screen and (min-width: 1920px) {
     .about-sec {
     padding-top: 300px;
     padding-bottom: 300px;
 }
-}.about-sec .flex-row {
+}
+.about-sec .flex-row {
     position: relative;
     margin-bottom: 30px;
 }
@@ -513,7 +527,8 @@ to {
     width: 540px;
     height: 540px;
 }
-}.about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap {
+}
+.about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap {
     position: absolute;
     display: flex;
     align-items: center;
@@ -530,15 +545,18 @@ to {
     .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp .img, .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-global .img {
     width: 260px;
 }
-}@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1200px) {
     .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp .img, .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-global .img {
     width: 21.26329vw;
 }
-}@media screen and (min-width: 1600px) {
+}
+@media screen and (min-width: 1600px) {
     .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp .img, .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-global .img {
     width: 200px;
 }
-}.about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp {
+}
+.about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp {
     top: 0;
     animation: rotateDspAni-m 20s infinite linear;
 }
@@ -546,31 +564,65 @@ to {
     .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp {
     animation: rotateDspAni-md 20s infinite linear;
 }
-}@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1200px) {
     .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp {
     animation: rotateDspAni-xl 20s infinite linear;
 }
-}@media screen and (min-width: 1600px) {
+}
+@media screen and (min-width: 1600px) {
     .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp {
     animation: rotateDspAni-pc 20s infinite linear;
 }
-}.about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-global {
+}
+
+
+.about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp, .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%}
+.about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp .img, .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai .img {
+    width: 110px;
+}
+@media screen and (min-width: 768px) {
+    .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp .img, .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai .img {
+    width: 260px;
+}
+}
+@media screen and (min-width: 1200px) {
+    .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp .img, .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai .img {
+    width: 21.26329vw;
+}
+}
+@media screen and (min-width: 1600px) {
+    .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-dsp .img, .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai .img {
+    width: 200px;
+}
+}
+
+.about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai {
     bottom: 0%;
     animation: rotateGlobalAni-m 20s infinite linear;
 }
 @media screen and (min-width: 768px) {
-    .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-global {
+    .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai {
     animation: rotateGlobalAni-md 20s infinite linear;
 }
-}@media screen and (min-width: 1200px) {
-    .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-global {
+}
+@media screen and (min-width: 1200px) {
+    .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai {
     animation: rotateGlobalAni-xl 20s infinite linear;
 }
-}@media screen and (min-width: 1600px) {
-    .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-global {
+}
+@media screen and (min-width: 1600px) {
+    .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai {
     animation: rotateGlobalAni-pc 20s infinite linear;
 }
-}.about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-main {
+}
+
+
+
+.about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-main {
     position: absolute;
     left: 50%;
     top: 50%;
