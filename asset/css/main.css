@@ -24,11 +24,13 @@
     .mv-sec .overflow-h.h-ani {
     transform: translateY(.93799vw);
 }
-}@media screen and (min-width: 1920px) {
+}
+@media screen and (min-width: 1920px) {
     .mv-sec .overflow-h.h-ani {
     transform: translateY(18px);
 }
-}.mv-sec .ani {
+}
+.mv-sec .ani {
     display: inline-block;
     opacity: 0;
     transform: translateY(80%);
@@ -181,7 +183,8 @@
     .mv-sec .inner .ani-wrap {
     right: 30px;
 }
-}.mv-sec .inner .ani-wrap .three-wrap {
+}
+.mv-sec .inner .ani-wrap .three-wrap {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -193,7 +196,8 @@
     transform: translate(-50%,  -50%);
     width: 70%;
     height: 70%}
-}.mv-sec .inner .ani-wrap .three-wrap .three-area {
+}
+.mv-sec .inner .ani-wrap .three-wrap .three-area {
     position: relative;
     width: 100%;
     height: 100%;
@@ -266,11 +270,13 @@
     left: 50%;
     transform: translateX(-50%);
 }
-}@media screen and (min-width: 1920px) {
+}
+@media screen and (min-width: 1920px) {
     .mv-sec .inner .scroll-guide-wrap {
     bottom: 100px;
 }
-}.mv-sec .inner .scroll-guide-wrap .scroll-btn {
+}
+.mv-sec .inner .scroll-guide-wrap .scroll-btn {
     display: block;
 }
 @media screen and (min-width: 768px) {
@@ -294,18 +300,21 @@
     .mv-sec .inner .scroll-guide-wrap .scroll-btn .txt-area {
     margin-left: auto;
 }
-}@media screen and (min-width: 992px) {
+}
+@media screen and (min-width: 992px) {
     .mv-sec .inner .scroll-guide-wrap .scroll-btn .txt-area {
     width: 7.42285vw;
     height: 7.42285vw;
     margin-left: auto;
 }
-}@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1200px) {
     .mv-sec .inner .scroll-guide-wrap .scroll-btn .txt-area {
     width: 89px;
     height: 89px;
 }
-}.mv-sec .inner .scroll-guide-wrap .scroll-btn .txt-area::before {
+}
+.mv-sec .inner .scroll-guide-wrap .scroll-btn .txt-area::before {
     content: "";
     position: absolute;
     left: 0;
@@ -358,6 +367,14 @@
     transform: rotate(360deg) translate(120px) rotate(-360deg);
 }
 }
+@keyframes rotateAiAni-m {
+    0% {
+    transform: rotate(0deg) translate(120px) rotate(0deg);
+}
+100% {
+    transform: rotate(360deg) translate(120px) rotate(-360deg);
+}
+}
 @keyframes rotateDspAni-md {
     0% {
     transform: rotate(0deg) translate(-200px) rotate(0deg);
@@ -374,7 +391,14 @@
     transform: rotate(360deg) translate(200px) rotate(-360deg);
 }
 }
-
+@keyframes rotateAiAni-md {
+    0% {
+    transform: rotate(0deg) translate(200px) rotate(0deg);
+}
+100% {
+    transform: rotate(360deg) translate(200px) rotate(-360deg);
+}
+}
 @keyframes rotateDspAni-xl {
     0% {
     transform: rotate(0deg) translate(-230px) rotate(0deg);
@@ -391,7 +415,14 @@
     transform: rotate(360deg) translate(230px) rotate(-360deg);
 }
 }
-
+@keyframes rotateAiAni-xl {
+    0% {
+    transform: rotate(0deg) translate(230px) rotate(0deg);
+}
+100% {
+    transform: rotate(360deg) translate(230px) rotate(-360deg);
+}
+}
 @keyframes rotateDspAni-pc {
     0% {
     transform: rotate(0deg) translate(-270px) rotate(0deg);
@@ -401,6 +432,15 @@
 }
 }
 @keyframes rotateGlobalAni-pc {
+    0% {
+    transform: rotate(0deg) translate(270px) rotate(0deg);
+}
+100% {
+    transform: rotate(360deg) translate(270px) rotate(-360deg);
+}
+
+}
+@keyframes rotateAiAni-pc {
     0% {
     transform: rotate(0deg) translate(270px) rotate(0deg);
 }
@@ -602,21 +642,21 @@ to {
 
 .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai {
     bottom: 0%;
-    animation: rotateGlobalAni-m 20s infinite linear;
+    animation: rotateAiAni-m 20s infinite linear;
 }
 @media screen and (min-width: 768px) {
     .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai {
-    animation: rotateGlobalAni-md 20s infinite linear;
+    animation: rotateAiAni-md 20s infinite linear;
 }
 }
 @media screen and (min-width: 1200px) {
     .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai {
-    animation: rotateGlobalAni-xl 20s infinite linear;
+    animation: rotateAiAni-xl 20s infinite linear;
 }
 }
 @media screen and (min-width: 1600px) {
     .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-ai {
-    animation: rotateGlobalAni-pc 20s infinite linear;
+    animation: rotateAiAni-pc 20s infinite linear;
 }
 }
 
@@ -902,7 +942,8 @@ about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-main .img-wrap
     margin-bottom: 25px;
     font-size: 30px;
 }
-}.dsp .txt-dsp-desc {
+}
+.dsp .txt-dsp-desc {
     font-size: 15px;
     line-height: 1.6;
     color: #ccc;
