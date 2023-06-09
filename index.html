@@ -46,7 +46,8 @@
 
     <!--#####===== 필수 CSS 라이브러리 =====#####-->
     <!-- jQuery UI -->
-    <link rel="stylesheet" href="asset/css/jquery-ui.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js" integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
 
     <!--#####===== 공통 CSS =====#####-->
     <link id="baseCss" href="asset/css/base.css" media="all" rel="stylesheet">
@@ -63,13 +64,14 @@
       <!-- 초기화코드 스크립트 -->
     <script src="asset/js/initialize.js"></script>
     <!-- 제이쿼리 -->
-<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY=" crossorigin="anonymous"></script>
     <!-- 제이쿼리 UI -->
     <script src="asset/js/jquery-ui.min.js"></script>
     <!-- 부트스트랩 -->
     <script src="asset/js/bootstrap.min.js"></script>
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    
 </head>
 
   <body id="home-home-body" class="main-nav" >
@@ -185,12 +187,14 @@
     </div>
     <div class="ani-wrap" style="opacity: 1;">
   <div class="three-wrap">
-        <div class="three-area">
+ <div class="three-area">
           <div class="top-left"></div>
           <div class="left-bot"></div>
           <div class="bot-right"></div>
           <div class="right-top"></div>
         </div>
+   
+        
       </div>
     </div>
     <div class="scroll-guide-wrap area" style="opacity: 1;">
@@ -208,14 +212,12 @@
   </div>
 </section>
   </section>
-    
-  <section id="main_about">
-    
+  <section id="main_about">  
 <div class="about-sec-wrap">
   <section class="about-sec">
     <div class="area">
       <div class="flex-row">
-        <div class="col-12 col-7-xl top-wrap">
+        <div class="col-12 col-5-xl top-wrap">
           <div class="desc-wrap">
             <p class="desc">SBT Global은 엔터프라이즈 관리 솔루션 선두 기업으로 기업이 운영, 재무, 리소스를 효과적으로 관리할 수 있도록 설계된 다양한 소프트웨어 도구와 기술을 제공합니다. 
               <br class="none block-xl">이러한 솔루션은 기업의 프로세스를 간소화하고 효율성을 높이며 비용을 절감을 통해 수익 증대를 가능하게 할 수 있습니다.
@@ -229,20 +231,41 @@
             </a>
           </div>
         </div>
-        <div class="col-12 col-7-xl bottom-wrap">
+        <div class="col-12 col-6-xl bottom-wrap">
           <div class="inner-bottom">
-            <div class="circle">
-              <div class="logo-wrap logo-wrap-dsp">
+         
+         <div class="circle"  >
+          <svg id="demo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+            <g class="planet">
+              <circle cx="246" cy="189" r="100" fill="#000"/>
+              <text text-anchor="middle" transform="translate(246 189)" fill="white" font-size="25" >SAP Data 
+              <tspan x="0" y="20"  font-size="25" font-weight="300">& Security</tspan></text>
+            </g>
+            <g class="planet">
+              
+              <circle  cx="865" cy="348" r="100"  opacity="0.403" fill="#000"/>
+              <text text-anchor="middle" transform="translate(865 352)" fill="white" font-size="25"font-weight="500" >SAP Managerial
+                <tspan x="0" y="22">Accounting</tspan> </text>
+            </g>
+            <g class="planet">
+           
+              <circle  cx="500" cy="897" r="100" opacity="0.362" fill="#000"/>
+              <text text-anchor="middle" transform="translate(500 903)"  fill="white" font-size="25"font-weight="500"  >Data & BI </text>
+            </g>
+          
+          
+          </svg>
+           <div class="logo-wrap logo-wrap-dsp" >
                 <img class="img none-md" src="asset/img/sale.png" alt="sale">
                 <img class="img none block-md" src="asset/img/sale.png" alt="sale">
               </div>
-              <div class="logo-wrap logo-wrap-global">
+              <div class="logo-wrap logo-wrap-global" >
                 <img class="img none-md" src="asset/img/sap.png" alt="sap">
                 <img class="img none block-md" src="asset/img/sap.png" alt="sap">
               </div>
-              <div class="logo-wrap logo-wrap-ai">
-                <img class="img none-md" src="asset/img/ai.png" alt="ai">
-                <img class="img none block-md" src="asset/img/ai.png" alt="ai">
+              <div class="logo-wrap logo-wrap-ai" >
+                <img class="img none-md" src="asset/img/ai.png" alt="sap">
+                <img class="img none block-md" src="asset/img/ai.png" alt="sap">
               </div>
               <div class="logo-wrap logo-wrap-main">
                 <div class="img-wrap">
@@ -250,14 +273,19 @@
                   <img class="img none block-lg" src="asset/img/sou.png" alt="solution">
                 </div>
               </div>
+         
+            
+            </div>
+        
+          
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+    
+ 
   </section>
 </div>
-   
   </section>
     
 
@@ -413,11 +441,10 @@ SBT Global은 시장에서 검증 된 토탈 솔루션 업체입니다.
         <div class="title-wrap">
           <h3 class="title">
            왜 전 세계 주요 기업들이 <br class="none block-lg">Salesforce를 선택할까요?
-
           </h3>
           <p class="txt-dsp-desc"> Salesforce을 통해 영업, 서비스, 마케팅, 협업 및 앱 구축을 지원하여 운영을 최적화하고 효율성을 높이며 워크플로를 간소화할 수 있습니다. 
-<br><br>
-SBT Global의 우수한 개발 인력으로 Salesforce를 신속하게 구축하고 실행 할 수 있습니다. 저희 전문 인력은 성공적인 배포 이 후 고객 중심의 즉각적인 운영/유지보수를 수행할 수 있습니다</p>
+<br>
+SBT Global의 우수한 개발 인력으로 Salesforce를 신속하게 구축하고 실행 할 수 있습니다.<br> 저희 전문 인력은 성공적인 배포 이 후 고객 중심의 즉각적인 운영/유지보수를 수행할 수 있습니다</p>
 
         </div>
         <div>
@@ -480,7 +507,7 @@ SBT Global의 우수한 개발 인력으로 Salesforce를 신속하게 구축하
               </div>
                         <div class="item-project col-auto item-6"> 
                 <div class="img-wrap">
-                  <div class="img-logo" style="background-image:url(asset/img/Coway_logo.png); background-size: contain;"></div>
+                  <div class="img-logo" style="background-image:url(asset/img/logo_w2.png); background-size: contain;"></div>
                 </div>
               </div>
                         <div class="item-project col-auto item-7"> 
@@ -500,7 +527,7 @@ SBT Global의 우수한 개발 인력으로 Salesforce를 신속하게 구축하
               </div>
                         <div class="item-project col-auto item-10"> 
                 <div class="img-wrap">
-                  <div class="img-logo"style="background-image:url(asset/img/Coway_logo.png); background-size: contain;" ></div>
+                  <div class="img-logo"style="background-image:url(asset/img/logo_w2.png); background-size: contain;" ></div>
                 </div>
               </div>
                     </div>
@@ -512,7 +539,7 @@ SBT Global의 우수한 개발 인력으로 Salesforce를 신속하게 구축하
           <ul class="list-project top-list flex-row flex-nowrap gutter-7 scroll-left">
                      <li class="item-project col-auto"> 
                     <div class="img-wrap">
-                      <div class="img-logo" style="background-image:url(asset/img/Coway_logo.png)"></div>
+                      <div class="img-logo" style="background-image:url(asset/img/logo_w2.png)"></div>
                     </div>
                   </li>
                     <li class="item-project col-auto"> 
@@ -741,8 +768,20 @@ SBT Global의 우수한 개발 인력으로 Salesforce를 신속하게 구축하
     <!--=================================================
             스크립트
     ==================================================-->
+        <!-- jQuery UI -->
+        <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js" integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+   
   <!--#####===== 네비 JS =====#####-->
   <script src="asset/js/script.js"></script>
 
       <!--#####===== 섹션 JS =====#####-->
     <script src="asset/js/main_visual.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+    <script >
+   /* TweenMax.set("#demo", {xPercent:50, yPercent:50});*/
+    var tl = new TimelineMax({repeat:-1});
+
+    tl.to(".planet", 10, {rotation: 360, svgOrigin:"500 500", ease:Linear.easeNone});	
+    tl.to(".planet text", 10, {rotation: -360, transformOrigin:"center center", ease:Linear.easeNone}, 0);
+    </script>
