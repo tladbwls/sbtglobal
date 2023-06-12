@@ -737,7 +737,7 @@
 }
 @media screen and (min-width: 1600px) {
     .contact .txt-tag {
-    font-size: 20px;
+        font-size: 30px;
 }
 }.contact .txt-title {
     display: block;
@@ -765,7 +765,7 @@
 }
 @media screen and (min-width: 1600px) {
     .contact .txt-title {
-    font-size: 16px;
+        font-size: 20px;
 }
 }.contact .btn-wrap {
     display: flex;
@@ -857,7 +857,6 @@
     .dsp .txt-dsp-title {
     font-size: 30px;
     margin-bottom: 25px;
-    font-size: 30px;
 }
 }
 .dsp .txt-dsp-desc {
@@ -1188,7 +1187,8 @@ to {
 .platform-wrap .txt-dsp-desc{
     margin-top: 30px;
     text-align: center;
-    line-height: 20px;;
+    line-height: 28px;
+    font-size: 20px;
 }
 .platform-wrap .title-wrap .title{font-size:28px;font-weight:500;line-height:1.43;color:#fff}
 @media screen and (min-width: 992px){.platform-wrap .title-wrap .title{font-size:2.81426vw}
