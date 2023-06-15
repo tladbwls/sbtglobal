@@ -373,10 +373,7 @@ footer .footer-content-wrap {
 
 footer .footer-content { font-size: 14px}
 
-footer .footer-content {
-    display: flex;
-    justify-content: space-between
-}
+
 footer .footer-content .info-items { margin-bottom: 40px}
 
 footer .footer-content .info-items .itmes-row {
@@ -517,7 +514,7 @@ li.footer-icon_li {
 
 @media screen and (min-width: 360px) {
     footer .footer-bottom .footer-link-wrap {
-        overflow-x: inherit
+        overflow-x: inherit;margin-bottom: 20px;
     }
 }
 
@@ -561,7 +558,6 @@ li.footer-icon_li {
         border-top: 1px solid #333
     }
     footer .footer-bottom .footer-link-wrap { margin-bottom: 15px}
- 
     
     
 }
@@ -602,23 +598,19 @@ li.footer-icon_li {
     }
     footer .footer-bottom {
         justify-content: space-between;
-        align-items: flex-end
+        align-items: flex-end;
     }
+  
     footer .footer-bottom .footer-link-wrap .link-txt:not(:last-child) {
         margin-right: 40px
     }
-
-    footer .footer-bottom .copyright {
-        margin-top: auto
-    }
+    footer .footer-bottom .copyright {margin-top: auto}
     footer .footer-btns {
         width: 66px;
         height: 66px
     }
 
-footer .footer-btns {right: 60px}
-
-
+    footer .footer-btns {right: 60px}
     footer .footer-btns .btn-contact:hover .icon {
         transform: translate(-4px, -50%)
     }
