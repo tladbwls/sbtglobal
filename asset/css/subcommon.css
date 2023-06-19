@@ -1,0 +1,26 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  /* font: inherit; */
+  font-family: 'Pretendard';
+  vertical-align: baseline;
+  word-break: keep-all;
+  letter-spacing: -0.02em;
+}
+body {background: #fff;}
+header {background-color:  rgba(0, 0, 0, 0.8);}
+footer {background-color: var(--color-gray-0);}
+footer .footer-content-wrap {color: var(--color-gray-6);}
+section {width: 100%; height: auto; margin-bottom: var(--el-section);}
+.container {width: 100%; max-width: 1500px; height: auto; margin: 0 auto;}
+.sub-text {color: var(--color-gray-7); font-size: var(--fs-15); font-style: normal; font-weight: var(--fw-400); line-height: 160%;}
+button {width: 258px; height: 55px; color: var(--color-gray-7); border: 1px solid var(--color-gray-3); border-radius: 0.75rem;}
+button a {margin: 1.125rem 2.25rem; }
+h1 {font-size: var(--fs-48); font-weight: var(--fw-title);}
+h2 {color: var(--color-gray-8); font-size: var(--fs-36); font-weight: var(--fw-sub-title); letter-spacing: -0.01em;}
+h3 {font-size: var(--fs-18); font-weight: var(--fw-sub-title); color: var(--color-gray-7); letter-spacing: -0.01em;}
+
+

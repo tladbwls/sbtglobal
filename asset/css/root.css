@@ -1,0 +1,89 @@
+:root {
+  /* Color */
+  --color-black: #000;
+  --color-gray-0: #F8F9FA;
+  --color-gray-1: #F2F3F5;
+  --color-gray-2: #EAECEF;
+  --color-gray-3: #DFE2E5;
+  --color-gray-4: #D0D4D9;
+  --color-gray-5: #B0B5BC;
+  --color-gray-6: #888E95;
+  --color-gray-7: #4B5056;
+  --color-gray-8: #363A3F;
+  --color-gray-9: #222529;
+
+  --color-violet: #998EE8;
+  --color-violet-1: ;
+  --color-violet-2: ;
+  --color-violet-3: ;
+  --color-violet-4: ;
+  --color-violet-5: ;
+  --color-violet-6: ;
+  --color-violet-7: ;
+
+  --color-blue-1: ;
+  --color-blue-2: ;
+  --color-blue-3: ;
+  --color-blue-4: ;
+  --color-blue-5: ;
+  --color-blue-6: ;
+  --color-blue-7: ;
+
+  --color-green-1: ;
+  --color-green-2: ;
+  --color-green-3: ;
+  --color-green-4: ;
+  --color-green-5: ;
+  --color-green-6: ;
+  --color-green-7: ;
+
+
+
+  /* Font Weight */
+  --fw-100: 100;
+  --fw-200: 200;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600; 
+  
+  --fw-title:600;
+  --fw-sub-title:500;
+ 
+
+  /* Font Size */
+  --fs-9: 0.563rem;
+  --fs-12: 0.75rem;
+  --fs-15: 0.938rem;
+  --fs-18: 1.125rem;
+  --fs-21: 1.313rem;
+  --fs-24: 1.5rem;
+  --fs-27: 1.688rem;
+  --fs-30: 1.875rem;
+  --fs-36: 2.25rem;
+  --fs-42: 2.625rem;
+  --fs-48: 3rem;
+  --fs-54: 3.375rem;
+  --fs-60: 3.75rem;
+
+  --fs-title: 3rem; /*60px*/
+  --fs-second-title:2.25rem; /*36px*/
+  --fs-button: 1.125rem; /*18px*/
+  --fs-basic-text: 0.938rem; /*15px*/ 
+
+  /* Layout Size */
+  --ls-1-6: 16.6666%;
+  --ls-1-5: 20%;
+  --ls-1-4: 25%;
+  --ls-1-3: 33.3333%;
+  --ls-1-2: 50%;
+  --ls-full: 100%;
+
+  /* Elements Interval */
+  --el-section: 11.25rem; /*180px*/
+  --el-small: 0.75rem; /*12px*/
+  --el-normal: 0.938rem; /*15PX*/
+  --el-medium: 1.5rem; /*24px*/
+  --el-wide: 3.75rem; /*60px*/
+  /* --el-section-small:3rem */
+}
