@@ -1,0 +1,27 @@
+.head-section {width: 100%; height: auto; background-color: var(--color-gray-0);}
+.head-section .container {position: relative; display: flex; align-items: center; justify-content: flex-start; gap: 6.5rem; padding: 14rem 0;}
+.head-section .container .title {display: flex;}
+.head-section .container .title img {width: 116px; height: 57px; object-fit: contain;}
+.head-section .container .title h1 {color: var(--color-gray-8);}
+.head-section .container .text {color: var(--color-gray-6); font-weight: var(--fw-sub-title);}
+.head-section .container>img {position: absolute; top: 23rem; right: 0; width: 900px; height: 300px; border: 1px solid black;}
+
+.solution-wrapper .h3-txt {display: flex; align-items: center; gap: 0.75rem;}
+.solution-wrapper .h3-txt h3:nth-child(2) {color: var(--color-gray-3);}
+.solution-wrapper .left {width: 45%; height: auto;}
+.solution-wrapper .left h2 {margin-bottom: var(--el-small);}
+.solution-wrapper .left h3 {margin-bottom: var(--el-wide);}
+.solution-wrapper .right {width: 55%;}
+.solution-wrapper .right>ul>li {display: flex; align-items: center; justify-content: space-around; gap: 2.25rem; padding: 3rem; margin-bottom: var(--el-normal); background-color: var(--color-gray-0); border-radius: 0.75rem;}
+.solution-wrapper .right>ul>li .li-left {width: 25%; height: auto; display: flex; flex-direction: column; gap: 0.25rem;}
+.solution-wrapper .right>ul>li .li-left div:nth-child(1) {width: fit-content; height: auto; padding: 0.25rem; border-radius: 0.25rem; font-weight: var(--fw-500); font-size: var(--fs-12); color: var(--color-gray-0); background: var(--color-violet);}
+.solution-wrapper .right>ul>li .li-left div:nth-child(2) {color: var(--color-gray-9); font-weight: var(--fw-500); font-size: var(--fs-24);}
+.solution-wrapper .right>ul>li .li-left div:nth-child(3) {color: var(--color-gray-5); font-weight: var(--fw-300); font-size: var(--fs-12);}
+.solution-wrapper .right>ul>li .li-right {width: 75%; height: auto;}
+.solution-wrapper .right>ul>li .li-right div {color: var(--color-gray-7); line-height: 160%; font-weight: var(--fw-300); font-size: var(--fs-15);}
+
+.MAS-section {margin-top: 24.5rem;}
+.MAS-section .container {display: flex; align-items: flex-start; justify-content: space-between;}
+.DataBackup-section .container {display: flex; align-items: flex-start; justify-content: space-between;}
+
+.other-section .container p {color: var(--color-gray-5); font-weight: var(--fw-500); font-size: var(--fs-18);}
