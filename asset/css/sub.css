@@ -40,7 +40,45 @@
 .SAPservice-wrapper .head-section h1 {text-align: center; margin-bottom: var(--el-wide);}
 .SAPservice-wrapper .head-section .service-img {width: 100%; height: 300px; background-color: var(--color-gray-3);}
 
-.SAPservice-wrapper .SAP-Solution-section {margin-top: var(--el-section);}
-.SAPservice-wrapper .SAP-Solution-section .container .title {display: flex;}
-.SAPservice-wrapper .SAP-Solution-section .container .title .sap-logo {width: 80px; height: 39px; object-fit: cover; background: url(/asset/img/SAP_logo.svg) center no-repeat; background-size: cover;}
-.SAPservice-wrapper .SAP-Solution-section .container .contents-top {display: flex; flex-direction: column; gap: 1.875rem;}
+.SAPservice-wrapper .SS-section {margin-top: var(--el-section);}
+.SAPservice-wrapper .SS-section .container .title {display: flex;}
+.SAPservice-wrapper .SS-section .container .title .sap-logo {width: 80px; height: 39px; object-fit: cover; background: url(/asset/img/SAP_logo.svg) center no-repeat; background-size: cover;}
+.SAPservice-wrapper .SS-section .container .contents-top {display: flex; flex-direction: column; gap: 1.875rem;}
+
+/* .SAPservice-wrapper .SS-section .container .contents-bottom {margin-top: 2.25rem;} */
+
+.SAPservice-wrapper .EI-section {padding: 7.5rem 0; background-color: var(--color-gray-9); text-align: center;}
+.SAPservice-wrapper .EI-section .title {padding-bottom: 12.5rem; }
+.SAPservice-wrapper .EI-section .title h2 {color: var(--color-gray-0);}
+.SAPservice-wrapper .EI-section .title span {color: var(--color-gray-5);}
+.SAPservice-wrapper .EI-section .what {position: relative;}
+.SAPservice-wrapper .EI-section .what .hana-back {position: absolute; top: -7.5rem; left: 0; right: 0; font-size: 20rem; font-weight: 800; color: #282B2F;}
+
+.SAPservice-wrapper .EI-section .why {margin-top: 12.5rem;}
+
+.SAPservice-wrapper .EI-section .video {width: 100vw;
+  height: 556px;
+  overflow: hidden;
+  margin-left: calc(-50vw + 50%);
+  margin-top: 12.5rem;
+  position: relative;}
+  video {
+    width: 100%;
+  }
+
+  .SAPservice-wrapper .EI-section .video .video-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .SAPservice-wrapper .EI-section .video .video-text div {
+    text-align: center;
+    font-size: var(--fs-24);
+    letter-spacing: -0.04em;line-height: 160%;
+    color: var(--color-gray-3);
+  }
+  .SAPservice-wrapper .EI-section .video .video-text div:first-child {
+    margin-bottom: var(--el-wide);
+  }
