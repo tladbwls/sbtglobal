@@ -44,23 +44,17 @@
 .SAPservice-wrapper .SS-section .container .title {display: flex;}
 .SAPservice-wrapper .SS-section .container .title .sap-logo {width: 80px; height: 39px; object-fit: cover; background: url(/asset/img/SAP_logo.svg) center no-repeat; background-size: cover;}
 .SAPservice-wrapper .SS-section .container .contents-top {display: flex; flex-direction: column; gap: 1.875rem;}
-
-/* .SAPservice-wrapper .SS-section .container .contents-bottom {margin-top: 2.25rem;} */
-
-.SAPservice-wrapper .EI-section {padding: 7.5rem 0; background-color: var(--color-gray-9); text-align: center;}
-.SAPservice-wrapper .EI-section .title {padding-bottom: 12.5rem; }
-.SAPservice-wrapper .EI-section .title h2 {color: var(--color-gray-0);}
-.SAPservice-wrapper .EI-section .title span {color: var(--color-gray-5);}
+.SAPservice-wrapper .EI-section {padding: 12.5rem 0; background-color: var(--color-gray-9); text-align: center;}
+.SAPservice-wrapper .EI-section .section-title {padding-bottom: 12.5rem; }
+.SAPservice-wrapper .EI-section .section-title h2 {color: var(--color-gray-0); margin-bottom: 1.125rem;}
+.SAPservice-wrapper .EI-section .section-title span {color: var(--color-gray-5); font-size: var(--fs-18);}
 .SAPservice-wrapper .EI-section .what {position: relative;}
 .SAPservice-wrapper .EI-section .what .hana-back {position: absolute; top: -7.5rem; left: 0; right: 0; font-size: 20rem; font-weight: 800; color: #282B2F;}
-
-.SAPservice-wrapper .EI-section .why {margin-top: 12.5rem;}
 
 .SAPservice-wrapper .EI-section .video {width: 100vw;
   height: 556px;
   overflow: hidden;
   margin-left: calc(-50vw + 50%);
-  margin-top: 12.5rem;
   position: relative;}
   video {
     width: 100%;
@@ -82,3 +76,23 @@
   .SAPservice-wrapper .EI-section .video .video-text div:first-child {
     margin-bottom: var(--el-wide);
   }
+  .SAPservice-wrapper .EI-section .benefit-content-box {margin-top: 1.875rem;}
+  .SAPservice-wrapper .EI-section .benefit-content-box ul {display: flex; align-items: center; justify-content: center; gap: var(--el-normal);     margin-bottom: var(--el-normal);}
+  .SAPservice-wrapper .EI-section .benefit-content-box ul:last-child {margin-bottom: 6.25rem;}
+  .SAPservice-wrapper .EI-section .benefit-content-box ul li {display: flex; align-items: center; justify-content: center;  width: 240px; height: 124px; background-color: #282b30;
+    ; border-radius: 0.563rem;}
+  .SAPservice-wrapper .EI-section .benefit-content-box ul li:hover {background-color: #303438; transform: translateY(-6px);}
+  .SAPservice-wrapper .EI-section .benefit-content-box ul li p {color: var(--color-gray-0); font-size: var(--fs-18);}
+  .SAPservice-wrapper .EI-section .benefits button {background-color:#2E3237 ; border: 1px solid #33373C;}
+  .SAPservice-wrapper .EI-section .benefits button:hover {background-color:#24272B; ; border: 1px solid #2F3237;}
+  .SAPservice-wrapper .EI-section .benefits button a {color: var(--color-gray-0);}
+
+.SAPservice-wrapper .ITO-section {padding-bottom: 12.5rem; text-align: center;}
+.SAPservice-wrapper .ITO-section .section-title h2 {color: var(--color-gray-8); margin-bottom: 1.125rem;}
+.SAPservice-wrapper .ITO-section .section-title span {color: var(--color-gray-7); font-size: var(--fs-18);}
+.SAPservice-wrapper .ITO-section .SAP-main-txt span:first-child {color: var(--color-gray-7);}
+.SAPservice-wrapper .ITO-section .what {text-align: start;}
+.SAPservice-wrapper .ITO-section .what ul li {width: 540px; height: 210px; border: 1px solid var(--color-gray-4); border-radius: 0.75rem;}
+.SAPservice-wrapper .ITO-section .what ul li p {color: var(--color-gray-7);}
+.SAPservice-wrapper .ITO-section .what ul li span {display: inline-block; width: 48px; height: 48px; }
+.SAPservice-wrapper .ITO-section .what ul li span::before {content: "\f7ad"; font-family: 'Material Icons Outlined'; font-size: 16px; color: var(--color-gray-8);}
