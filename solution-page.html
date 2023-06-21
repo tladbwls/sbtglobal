@@ -48,20 +48,12 @@
   <!--#####===== 공통 CSS =====#####-->
   <link id="baseCss" href="asset/css/base.css" media="all" rel="stylesheet">
   <link href="asset/css/common.css" media="all" rel="stylesheet">
-  <link rel="stylesheet" href="/asset/css/root.css">
+  <link rel="stylesheet" href="asset/css/root.css">
   <!-- #####===== 네비 CSS =====##### -->
   <!-- <link rel="stylesheet" href="asset/css/main.css"> -->
   <!--#####===== 서브페이지 CSS =====#####-->
   <link rel="stylesheet" href="asset/css/subcommon.css">
   <link rel="stylesheet" href="asset/css/sub.css">
-  <!-- <style>
-    @font-face {
-      font-family: 'Pretendard';
-      src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-      font-weight: ;
-      font-style: normal;
-  }
-  </style> -->
 
 
 
@@ -83,7 +75,7 @@
     ==================================================-->
 
   <!--네비게이션-->
-  <header class="header ">
+  <header class="header">
     <div class="fixed-wrap">
       <div class="header-inner">
         <h1 class="logo">
@@ -178,14 +170,14 @@
     <section class="head-section" id="head-section">
       <div class="container">
         <div class="title">
-          <img src="/asset/img/SAP_logo.svg" alt="sap logo">
+          <div class="sap-logo"></div>
           <h1>Solution</h1>
         </div>
         <div class="sub-text">
           SAP 관리 회계(CO)는 조직에 제공되는 또 다른 중요한 SAP 모듈입니다.<br> 조직의 모든 프로세스에 대한 조정, 모니터링 및 최적화를 지원합니다.<br> SAP CO에는 생산 요소의 소비오
           조직에서 제공하는 서비스를 모두 기록하는 것이 포함됩니다.
         </div>
-        <img src="" alt="">
+        <div class="solution-img"></div>
       </div>
     </section>
     <!-- //head-section -->
@@ -196,10 +188,10 @@
         <div class="left">
           <h2>Management <br>
             Accounting Solutions</h2>
-          <div class="h3-txt">
-            <h3>관리회계 부문 솔루션 </h3>
-            <h3>&#124;</h3>
-            <h3>QSA, ACE, APC, CPM </h3>
+          <div class="span-txt">
+            <span>관리회계 부문 솔루션 </span>
+            <span>&#124;</span>
+            <span>QSA, ACE, APC, CPM </span>
           </div>
           <button>
             <a href="javascript:void(0);">Customer Stories 바로가기</a>
@@ -270,10 +262,10 @@
       <div class="container">
         <div class="left">
           <h2>Data Backup</h2>
-          <div class="h3-txt">
-            <h3>DATA Backup 및 보안, 커넥터 솔루션 </h3>
-            <h3>&#124;</h3>
-            <h3>QArch, CubeOne, QSID (RM-SDI) </h3>
+          <div class="span-txt">
+            <span>DATA Backup 및 보안, 커넥터 솔루션 </span>
+            <span>&#124;</span>
+            <span>QArch, CubeOne, QSID (RM-SDI) </span>
           </div>
           <button>
             <a href="javascript:void(0);">Customer Stories 바로가기</a>
@@ -323,7 +315,7 @@
         <h2>Data & BI Solutions</h2>
 
       </div>
-    
+
     </section>
     <!-- //Other section -->
 
@@ -336,8 +328,8 @@
             푸터
     ==================================================-->
   <!-- 푸터 -->
-   <footer id="footer">
-    <div class="footer-content-wrap">
+  <footer id="footer" >
+    <div class="footer-content-wrap" style="border-top: none;">
       <div class="area">
         <div class="footer-sns">
           <ul>
@@ -381,7 +373,7 @@
               </div>
             </div>
           </address>
-          개인정보처리방침, 이용약관, copyright
+          <!-- 개인정보처리방침, 이용약관, copyright -->
           <div class="footer-bottom">
             <div class="footer-link-wrap">
               <a href="/ko/privacy" class="link-txt"><em class="point">개인정보 처리방침</em></a>
@@ -390,9 +382,17 @@
             <div>
               </a>
             </div>
-            <small class="copyright">
-              ⓒ <span class="site-name">SBT Global</span> ALL RIGHTS RESERVED.
-            </small>
+            <div class="family-copy">
+              
+              <div class="family-site">
+                <p>FAMILY SITE</p>
+                <span></span>
+              </div>
+              <small class="copyright">
+                ⓒ <span class="site-name">SBT Global</span> ALL RIGHTS RESERVED.
+              </small>
+            </div>
+            
           </div>
         </div>
         <div class="footer-btns bottom-fixed" style="display: block;">
@@ -406,6 +406,7 @@
       </div>
     </div>
   </footer>
+
   <!-- //푸터 -->
 
   <!--=================================================
