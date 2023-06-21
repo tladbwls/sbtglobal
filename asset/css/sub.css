@@ -91,8 +91,9 @@
 .SAPservice-wrapper .ITO-section .section-title h2 {color: var(--color-gray-8); margin-bottom: 1.125rem;}
 .SAPservice-wrapper .ITO-section .section-title span {color: var(--color-gray-7); font-size: var(--fs-18);}
 .SAPservice-wrapper .ITO-section .SAP-main-txt span:first-child {color: var(--color-gray-7);}
-.SAPservice-wrapper .ITO-section .what {text-align: start;}
-.SAPservice-wrapper .ITO-section .what ul li {width: 540px; height: 210px; border: 1px solid var(--color-gray-4); border-radius: 0.75rem;}
+.SAPservice-wrapper .ITO-section .what {padding: 0 12.5rem; text-align: start;}
+.SAPservice-wrapper .ITO-section .what ul {display: flex; align-items: center; justify-content: space-between; gap: 1.875rem; margin-bottom: 1.875rem;}
+.SAPservice-wrapper .ITO-section .what ul:last-child {margin-bottom: none;}
+.SAPservice-wrapper .ITO-section .what ul li {display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 2.25rem; width: 540px; _height: auto; padding: 2rem; border: 1px solid var(--color-gray-4); border-radius: 0.75rem;}
 .SAPservice-wrapper .ITO-section .what ul li p {color: var(--color-gray-7);}
-.SAPservice-wrapper .ITO-section .what ul li span {display: inline-block; width: 48px; height: 48px; }
-.SAPservice-wrapper .ITO-section .what ul li span::before {content: "\f7ad"; font-family: 'Material Icons Outlined'; font-size: 16px; color: var(--color-gray-8);}
+.SAPservice-wrapper .ITO-section .what ul li img {width: 48px; height: 48px; }

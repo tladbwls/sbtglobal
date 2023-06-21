@@ -52,7 +52,7 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
 .SAPservice-wrapper .SAP-main-txt span:first-child {margin-bottom: var(--el-normal); font-weight: var(400); font-size: var(--fs-24); color: var(--color-gray-1);}
 .SAPservice-wrapper .SAP-main-txt span:first-child p {color: var(--color-violet); margin: 0 .5rem;}
 
-.SAPservice-wrapper .what .SAP-main-txt span:last-child {font-size: var(--fs-18); line-height: 160%; color: var(--color-gray-0);}
+.SAPservice-wrapper .what .SAP-main-txt span:last-child {font-size: var(--fs-24); line-height: 160%; color: var(--color-gray-0);}
 .SAPservice-wrapper .sub-section {margin-top: 12.5rem;}
 
 /* why */
