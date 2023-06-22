@@ -50,8 +50,19 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
 .SAPservice-wrapper .SAP-main-txt span:first-child {margin-bottom: var(--el-normal); font-weight: var(--fw-600); font-size: var(--fs-24); color: var(--color-gray-1);}
 .SAPservice-wrapper .SAP-main-txt span:first-child p {color: var(--color-violet); margin: 0 .5rem;}
 
-.SAPservice-wrapper .what .SAP-main-txt span:last-child {font-size: var(--fs-24); line-height: 160%; color: var(--color-gray-0);}
+.SAPservice-wrapper .what .SAP-main-txt span:last-child {font-size: var(--fs-18); line-height: 160%; color: var(--color-gray-0);}
 .SAPservice-wrapper .sub-section {margin-top: 12.5rem;}
+
+
+/* head-section */
+.head-section {margin-top: 100px;}
+.head-section .container {margin-top: var(--el-section);}
+.head-section .location ul {display: flex; align-items: center; gap: 1rem;}
+.head-section .location ul li {font-weight: var(--fw-600); font-size: var(--fs-15); color: var(--color-gray-8);}
+.head-section .location ul li:nth-child(2)::after {content: "/"; margin-left: 1rem; color: var(--color-gray-4);}
+.head-section .location ul li span {display: inline-block; width: 24px; height: 24px;}
+.head-section .location ul li span::after {content: "\e88a"; font-family: 'Material Icons Outlined'; font-size: 16px; color: var(--color-gray-5);}
+.head-section h1 {text-align: center; margin-bottom: var(--el-wide);}
 
 /* why */
 .why ul {display: flex; align-items: flex-start; justify-content: space-between; gap: 3rem; padding-top: 3rem;}
