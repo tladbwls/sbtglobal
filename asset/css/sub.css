@@ -113,3 +113,6 @@
 
 .Data-Bi-wrapper .head-section .Data-Bi-img {width: 100%; height: 300px; background-color: var(--color-gray-3);}
 .Data-Bi-wrapper .why-section {width: 100%; height: 700px; background-color: var(--color-gray-0);}
+.Data-Bi-wrapper .why-section .BI-txt {padding:var(--el-wide) 0;}
+.Data-Bi-wrapper .what-section .container {margin-top: calc(var(--el-section) - 20rem)}
+.Data-Bi-wrapper .head-section .rectangle {position: relative;top: 20rem; width: 100%; max-width: 1500px; height: 120px; margin: 0 auto; background-color: #fff;}

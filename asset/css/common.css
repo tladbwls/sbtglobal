@@ -110,6 +110,38 @@ body.pc-nav-open { overflow: hidden;}
     height: 100%;
     cursor: pointer;
 }
+
+.header-right-wrap .sub-btn {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    width: 23rem;
+}
+.header-right-wrap .sub-menu .btn-item-list {
+    display: none;
+    position: absolute;
+    margin-top: 6rem;
+}
+.header-right-wrap .sub-menu:hover .btn-item-list {
+    width: 21rem;
+    display: flex;
+}
+.header-right-wrap .sub-menu .btn-item-list div {
+    padding: 24px 18px;
+}
+.header-right-wrap .sub-menu .btn-item-list a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #B0B5BC;
+    
+}
+.header-right-wrap .sub-menu .btn-item-list a:hover{
+    color: #fff;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.25rem;
+    
+}
+
 .menu-btn { width: 30px;}
 .menu-btn .line {
     margin: 5px 0;
