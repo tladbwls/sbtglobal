@@ -20,24 +20,24 @@ section {width: 100%; height: auto; margin-bottom: var(--el-section);}
 button {width: fit-content; height: 55px; color: var(--color-gray-7); border: 1px solid var(--color-gray-3); font-weight: var(--fw-500); border-radius: 0.75rem;}
 button a {margin: 1.125rem 2.25rem; }
 h1 {color: var(--color-gray-8); font-size: var(--fs-48); font-weight: var(--fw-title);}
-h2 {color: var(--color-gray-8); font-size: var(--fs-36); font-weight: var(--fw-sub-title); letter-spacing: -0.01em;}
+h2 {color: var(--color-gray-8); font-size: var(--fs-36); font-weight: var(--fw-title); letter-spacing: -0.01em;}
 h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray-7); letter-spacing: -0.01em;}
 
 /* swiper slide */
-
-
 .swiper {
   width: 100%;
-  height: 620px;
+  height: 100%;
 }
 
 .swiper-slide {
+  height: 375px;
   text-align: center;
   font-size: 18px;
-  background: var(--color-gray-3);
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid red;
   color: black;
 }
 
@@ -49,15 +49,32 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
 }
 
 
-.SAPservice-wrapper .SAP-main-txt span:first-child {margin-bottom: var(--el-normal); font-weight: var(400); font-size: var(--fs-24); color: var(--color-gray-1);}
+.SAPservice-wrapper .SAP-main-txt span:first-child {margin-bottom: var(--el-normal); font-weight: var(--fw-600); font-size: var(--fs-24); color: var(--color-gray-1);}
 .SAPservice-wrapper .SAP-main-txt span:first-child p {color: var(--color-violet); margin: 0 .5rem;}
 
-.SAPservice-wrapper .what .SAP-main-txt span:last-child {font-size: var(--fs-24); line-height: 160%; color: var(--color-gray-0);}
+.SAPservice-wrapper .what .SAP-main-txt span:last-child {font-size: var(--fs-18); line-height: 160%; color: var(--color-gray-0);}
 .SAPservice-wrapper .sub-section {margin-top: 12.5rem;}
 
+
+/* head-section */
+.head-section {margin-top: 100px;}
+.head-section .container {margin-top: var(--el-section);}
+.head-section .location ul {display: flex; align-items: center; gap: 1rem;}
+.head-section .location ul li {font-weight: var(--fw-600); font-size: var(--fs-15); color: var(--color-gray-8);}
+.head-section .location ul li:nth-child(2)::after {content: "/"; margin-left: 1rem; color: var(--color-gray-4);}
+.head-section .location ul li span {display: inline-block; width: 24px; height: 24px;}
+.head-section .location ul li span::after {content: "\e88a"; font-family: 'Material Icons Outlined'; font-size: 16px; color: var(--color-gray-5);}
+.head-section h1 {text-align: center; margin-bottom: var(--el-wide);}
+
 /* why */
-.why ul {display: flex; align-items: center; justify-content: space-between; gap: 3rem; padding-top: 3rem;}
-.why ul li {position: relative; width: 25%;}
-.why ul li div:first-child {position: absolute; top:-2rem; left:4.5rem; font-weight: 700; font-size: var(--fs-48); letter-spacing: -0.08em; color: #282B2F;}
-.why ul li .why-txt {position:relative; z-index:10; display: flex; flex-direction:column; align-items:center; justify-content:center; gap:0.563rem;}
-.why ul li .why-txt span:last-child {font-size: var(--fs-15); color: var(--color-gray-5);}
+.why ul {display: flex; align-items: flex-start; justify-content: space-between; gap: 3rem; padding-top: 3rem;}
+.why ul li {position: relative; width: 25%; z-index: 10;}
+.why ul li .why-txt {z-index:10; display: flex; flex-direction:column; align-items:center; justify-content:center; gap:0.563rem;}
+.why ul li .why-txt div {position:relative; font-size: var(--fs-18); font-weight: var(--fw-500); color: #F6F6F9;}
+.why ul li .why-txt div:before {content: ''; position: absolute; top:-2rem; left:-2rem; font-weight: 700; font-size: var(--fs-48); letter-spacing: -0.08em; color: #282B2F; z-index: -1;}
+.why ul li:first-child .why-txt div:before{content: '01';}
+.why ul li:nth-child(2) .why-txt div:before{content: '02';}
+.why ul li:nth-child(3) .why-txt div:before{content: '03';}
+.why ul li:nth-child(4) .why-txt div:before{content: '04';}
+.why ul li:nth-child(5) .why-txt div:before{content: '05';}
+.why ul li .why-txt p {font-size: var(--fs-15); color: var(--color-gray-5);}
