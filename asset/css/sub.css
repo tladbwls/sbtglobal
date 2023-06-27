@@ -116,3 +116,24 @@
 .Data-Bi-wrapper .why-section .BI-txt {padding:var(--el-wide) 0;}
 .Data-Bi-wrapper .what-section .container {margin-top: calc(var(--el-section) - 20rem)}
 .Data-Bi-wrapper .head-section .rectangle {position: relative;top: 20rem; width: 100%; max-width: 1500px; height: 120px; margin: 0 auto; background-color: #fff;}
+
+
+/*********************** Salesforce C&I-page *************************/
+.head-section .head-img {width: 100%; height: 300px;  background: url(/asset/img/sales-header.svg) no-repeat center; background-size: cover;}
+.head-section .head-img .container {display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%;}
+.head-section .head-img .container .txt h2 {color: var(--color-gray-0);}
+.head-section .head-img .container .txt p {color: var(--color-gray-4); font-size: var(--fs-18); line-height: 160%; margin-top: var(--el-medium);}
+.head-section .head-img .container .salesforce-logo {width: 250px; height: 174px; background: url(/asset/img/Salesforce.com_logo.svg) no-repeat center;}
+.why-section {background-color: #F7FBFF;}
+.why-section .container{display: flex; align-items: center; justify-content: space-between; }
+.why-section .SF-txt {display: flex; flex-direction: column; align-items: start;}
+.why-section .SF-txt p {text-align: start; margin-bottom: 0;}
+.why-section .img {width: 750px; height: 418px; background-color: #aaa;}
+
+.benefits-section {position: relative; text-align: center;}
+.benefits-section .benefit-img {position: absolute; top: 9rem; right: 0; left: 0; width: 1000px; height: 1000px; margin: 0 auto; background: url(/asset/img/Salesforce-circle.svg) no-repeat center; background-size: cover;}
+.benefits-section button {margin-top: 63rem;}
+
+/* company */
+body:has(.company-wrapper) {background-color: #191919;}
+.company-wrapper .head-section .h1 {margin-top: 13rem; }

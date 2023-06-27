@@ -109,3 +109,9 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
 .Data-Bi-wrapper .BI-txt span {font-size: var(--fs-18); font-weight: var(--fw-600); color: var(--color-teal);}
 .Data-Bi-wrapper .BI-txt p {font-size: var(--fs-18); line-height: 160%; color: var(--color-gray-7); text-align: center;}
 .Data-Bi-wrapper .BI-txt h2 {margin-top: 1rem; margin-bottom: 2rem;}
+
+
+.salesforce-wrapper .SF-txt {display: flex; flex-direction: column; align-items: center;}
+.salesforce-wrapper .SF-txt span {font-size: var(--fs-18); font-weight: var(--fw-600); color: var(--color-blue);}
+.salesforce-wrapper .SF-txt p {margin-bottom: 3rem; font-size: var(--fs-18); line-height: 160%; color: var(--color-gray-7); text-align: center;}
+.salesforce-wrapper .SF-txt h2 {margin-top: 1rem; margin-bottom: 2rem;}
