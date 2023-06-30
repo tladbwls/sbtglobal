@@ -4,7 +4,7 @@
 /* .solution-wrapper .head-section {width: 100%; height: auto; background-color: var(--color-gray-0);}
 .solution-wrapper .head-section .container {position: relative; display: flex; align-items: center; justify-content: flex-start; gap: 6.5rem; padding: 14rem 0;}
 .solution-wrapper .head-section .container .title {display: flex;}
-.solution-wrapper .head-section .container .title .sap-logo {width: 116px; height: 57px; object-fit: contain; background: url(asset/img/SAP_logo.svg) center no-repeat;}
+.solution-wrapper .head-section .container .title .sap-logo {width: 116px; height: 57px; object-fit: contain; background: url(../img/SAP_logo.svg) center no-repeat;}
 .solution-wrapper .head-section .container .text {color: var(--color-gray-6); font-weight: var(--fw-sub-title);}
 .solution-wrapper .head-section .container .solution-img {position: absolute; top: 23rem; right: 0; width: 900px; height: 300px; background-color: var(--color-gray-3);} */
 .solution-wrapper .head-section {width: 100%; height: 540px; padding-top: 10.5rem; margin-top: 0; background-color: var(--color-gray-0);}
@@ -12,7 +12,7 @@
 .solution-wrapper .head-section .location ul li:nth-child(2)::after{content: ''; display: none;}
 .solution-wrapper .head-section .container .title {position: relative; display: flex; justify-content: center; align-items: center; gap: 6.25rem; margin-top: 6.25rem;}
 .solution-wrapper .head-section .container .title-logo {display: flex;}
-.solution-wrapper .head-section .container .title-logo .sap-logo {width: 116px; height: 57px; object-fit: contain; background: url(asset/img/SAP_logo.svg) center no-repeat;}
+.solution-wrapper .head-section .container .title-logo .sap-logo {width: 116px; height: 57px; object-fit: contain; background: url(../img/SAP_logo.svg) center no-repeat;}
 .solution-wrapper .head-section .container .title .solution-img {position: absolute; top: 10rem; right: 0; width: 900px; height: 300px; background-color: var(--color-gray-4);}
 
 .solution-wrapper .span-txt {display: flex; align-items: center; gap: 0.75rem;}
@@ -43,7 +43,7 @@
 /* SAPservice-page (SAP solution section) */
 .SAPservice-wrapper .SS-section {margin-top: var(--el-section);}
 .SAPservice-wrapper .SS-section .container .title {display: flex;}
-.SAPservice-wrapper .SS-section .container .title .sap-logo {width: 80px; height: 39px; object-fit: cover; background: url(asset/img/SAP_logo.svg) center no-repeat; background-size: cover;}
+.SAPservice-wrapper .SS-section .container .title .sap-logo {width: 80px; height: 39px; object-fit: cover; background: url(../img/SAP_logo.svg) center no-repeat; background-size: cover;}
 .SAPservice-wrapper .SS-section .container .contents-top {display: flex; flex-direction: column; gap: 1.875rem; margin-left: 5.625rem; margin-bottom: var(--el-wide);}
 .SAPservice-wrapper .SS-section .container .solution-grid {width: 100%;margin: auto;overflow: hidden;display: grid;grid-template-columns: 1fr 1fr 1fr;gap: 0.938rem; grid-auto-flow: row dense;}
 .SAPservice-wrapper .SS-section .container .boxes {width: 100%;height: auto;}
@@ -126,11 +126,11 @@
 
 
 /*********************** Salesforce C&I-page *************************/
-.salesforce-wrapper .head-section .head-img {width: 100%; height: 300px;  background: url(asset/img/sales-header.svg) no-repeat center; background-size: cover;}
+.salesforce-wrapper .head-section .head-img {width: 100%; height: 300px;  background: url(../img/sales-header.svg) no-repeat center; background-size: cover;}
 .salesforce-wrapper .head-section .head-img .container {display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%;}
 .salesforce-wrapper .head-section .head-img .container .txt h2 {color: var(--color-gray-0);}
 .salesforce-wrapper .head-section .head-img .container .txt p {color: var(--color-gray-4); font-size: var(--fs-18); line-height: 160%; margin-top: var(--el-medium);}
-.salesforce-wrapper .head-section .head-img .container .salesforce-logo {width: 250px; height: 174px; background: url(asset/img/Salesforce.com_logo.svg) no-repeat center; }
+.salesforce-wrapper .head-section .head-img .container .salesforce-logo {width: 250px; height: 174px; background: url(../img/Salesforce.com_logo.svg) no-repeat center; }
 .salesforce-wrapper .why-section {background-color: #F7FBFF;}
 .salesforce-wrapper .why-section .container{display: flex; align-items: center; justify-content: space-between; }
 .salesforce-wrapper .why-section .SF-txt {display: flex; flex-direction: column; align-items: start;}
@@ -138,7 +138,7 @@
 .salesforce-wrapper .why-section .img {width: 750px; height: 418px; background-color: #aaa;}
 
 .salesforce-wrapper .benefits-section {position: relative; text-align: center;}
-.salesforce-wrapper .benefits-section .benefit-img {position: absolute; top: 9rem; right: 0; left: 0; width: 1000px; height: 1000px; margin: 0 auto; background: url(asset/img/Salesforce-circle.svg) no-repeat center; background-size: cover;}
+.salesforce-wrapper .benefits-section .benefit-img {position: absolute; top: 9rem; right: 0; left: 0; width: 1000px; height: 1000px; margin: 0 auto; background: url(../img/Salesforce-circle.svg) no-repeat center; background-size: cover;}
 .salesforce-wrapper .benefits-section button {margin-top: 63rem;}
 
 /* company */
@@ -149,24 +149,24 @@ body:has(.company-wrapper) {background-color: #191919;}
 .company-wrapper .head-section h1 {margin-top: 13rem; font-size: var(--fs-60); color: var(--color-gray-0);}
 
 .company-wrapper .second-section .contents-box {position: relative; display: flex; justify-content: space-between;}
-.company-wrapper .second-section .contents-box::after {content: ''; position: absolute; width: 1092px; height: 1027px; top: 0; right: -27rem; background: url(asset/img/company-gra1.svg) no-repeat center; background-size: cover;}
+.company-wrapper .second-section .contents-box::after {content: ''; position: absolute; width: 1092px; height: 1027px; top: 0; right: -27rem; background: url(../img/company-gra1.svg) no-repeat center; background-size: cover;}
 .company-wrapper .second-section .contents-box ul{position: relative;display: flex; flex-direction: column; align-items: flex-start; gap: 7.5rem; margin-top: 12rem;}
 .company-wrapper .second-section .contents-box ul::after {content: ''; position: absolute; top: -2rem; left: -2rem; width: 1px; height: 120%; background-color: var(--color-gray-8);}
 .company-wrapper .second-section .contents-box ul li span {color: var(--color-gray-5); font-size: var(--fs-15);}
 .company-wrapper .second-section .contents-box ul li p {color: var(--color-gray-0); font-size: var(--fs-60); font-weight: var(--fw-600);}
-.company-wrapper .second-section .diamond {width: 100%; height: 850px; background: url(asset/img/company-diamond.svg) no-repeat center; margin-top: 20rem; }
-.company-wrapper .third-section .img-box {width: 100%; height: 820px; background: url(asset/img/company-img.svg) no-repeat center center; background-size: cover;}
+.company-wrapper .second-section .diamond {width: 100%; height: 850px; background: url(../img/company-diamond.svg) no-repeat center; margin-top: 20rem; }
+.company-wrapper .third-section .img-box {width: 100%; height: 820px; background: url(../img/company-img.svg) no-repeat center center; background-size: cover;}
 .company-wrapper .third-section .container .txt {margin-top: -16rem;}
 .company-wrapper .third-section .container>p {margin-top: 24.063rem; font-size: var(--fs-24); text-align: center; line-height: 160%; color: var(--color-gray-0);}
-.company-wrapper .third-section .container .circle-graphic {position: relative; width: 100%; height: 1294px; margin: -8rem auto; background: url(asset/img/company-circle.svg) no-repeat center; }
-.company-wrapper .third-section .container .circle-graphic .gradation {position: absolute; right: -9rem;  width: 100%; height: 1200px; background: url(asset/img/company-gra2.png) no-repeat center; z-index: -1; background-size: cover;}
+.company-wrapper .third-section .container .circle-graphic {position: relative; width: 100%; height: 1294px; margin: -8rem auto; background: url(../img/company-circle.svg) no-repeat center; }
+.company-wrapper .third-section .container .circle-graphic .gradation {position: absolute; right: -9rem;  width: 100%; height: 1200px; background: url(../img/company-gra2.png) no-repeat center; z-index: -1; background-size: cover;}
 
 /* customer story */
 .customer-wrapper .location ul li:nth-child(2)::after{content: ''; display: none;}
 .customer-wrapper .story-section ul {display: flex; flex-direction: column; gap: 5.625rem;} 
 .customer-wrapper .story-section ul:last-child {margin-top: 5rem;}
 .customer-wrapper .story-section ul li {background-color: var(--color-gray-0); width: 530px; height: auto; padding: 2.813rem; border-radius: 0.938rem;}
-.customer-wrapper .story-section ul li .logo-img {width: 250px; height: 250px;     background: url(asset/img/Coway.png) no-repeat center center; margin: 0 auto;}
+.customer-wrapper .story-section ul li .logo-img {width: 250px; height: 250px;     background: url(../img/Coway.png) no-repeat center center; margin: 0 auto;}
 .customer-wrapper .story-section ul li .title {display: flex; align-items: center; gap: 0.75rem;}
 .customer-wrapper .story-section ul li .title p {color: var(--color-gray-8); font-weight: var(--fw-500); font-size: var(--fs-24);}
 .customer-wrapper .story-section ul li .title .sub-title {width: fit-content; padding: 3px 12px; border-radius: 0.563rem; background-color: var(--color-gray-2); color: var(--color-gray-7); font-size: var(--fs-15); font-weight: var(--fw-500); }
@@ -176,3 +176,10 @@ body:has(.company-wrapper) {background-color: #191919;}
 
 .customer-wrapper .story-section .container {display: flex; justify-content: center; gap: 4.375rem;}
 .customer-wrapper .story-section .container .line {width: 1px; height: 2000px; background-color: var(--color-gray-3);}
+
+
+.container.sub-nav-container {height: 2rem; margin-top: 1.688rem;}
+.sub-nav ul {display: flex; gap: 3.75rem;}
+.sub-nav ul li a {color: var(--color-gray-4); font-size: var(--fs-18); font-weight: var(--fw-500); transition: all 1s ease;}
+.sub-nav ul li a:hover {color: var(--color-gray-9); transition: all 1s ease;}
+.sub-nav ul li a:hover::after {content: ''; display: inline-block; width: 100%; height: 2px; border-bottom: 2px solid var(--color-gray-9); transition: all 1s ease;}
