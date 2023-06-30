@@ -21,6 +21,7 @@ body.pc-nav-open { overflow: hidden;}
 .header.sub-header {position: relative;}
 .header.fixed.sub-header {  position: relative !important;}
 .about-nav .header.fixed.sub-header { position: fixed !important;}
+.sub-page.fixed {position: static !important;}
 .about-nav .header { position: fixed;}
 .header .fixed-wrap {
     position: fixed;
