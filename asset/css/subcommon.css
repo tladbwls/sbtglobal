@@ -46,9 +46,20 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
   padding-bottom: 0.25rem;
   
 }
-.main-nav .header.sub-page {position: static;}
-.main-nav .header.sub-page .fixed-wrap {position: static;}
+.head-section .container.sub-nav-container {margin-top: 0;}
 
+.sub-nav {padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;}
+  .sub-nav.sticky {
+    position: fixed;
+    top: 45rem;
+    width: 100%;
+  }
+.sub-nav ul {display: flex; align-items: center; gap: 3rem; }
+.sub-nav ul li a {color: var(--color-gray-4);}
+.sub-nav ul li a:hover {color: var(--color-gray-9); transition: all 1s ease;}
+/* .sub-nav ul li a:hover::after{content: ''; display: inline-block; width: 100%; border-bottom: 2px solid var(--color-gray-9);} */
 
 
 /* swiper slide */
@@ -91,7 +102,7 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
 .head-section .location ul li {font-weight: var(--fw-600); font-size: var(--fs-15); color: var(--color-gray-8);}
 .head-section .location ul li:nth-child(2)::after {content: "/"; margin-left: 1rem; color: var(--color-gray-4);}
 .head-section .location ul li span {display: inline-block; width: 24px; height: 24px;}
-.head-section .location ul li span::after {content: ''; display: inline-block; width: 16px; height: 16px; background: url(asset/img/home-icon.svg) no-repeat center center;}
+.head-section .location ul li span::after {content: ''; display: inline-block; width: 16px; height: 16px; background: url(/../img/home-icon.svg) no-repeat center center;}
 .head-section h1 {text-align: center; margin-bottom: var(--el-wide);}
 
 /* why */
