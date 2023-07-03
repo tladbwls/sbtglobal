@@ -579,9 +579,12 @@ li.footer-icon_li {
     footer .footer-bottom .footer-link-wrap {
         overflow-x: inherit;margin-bottom: 20px;
     }
+   
+    
 }
-
-
+@media screen and (max-width: 420px) {
+footer .footer-btns:hover .btn-contact .open-panel .text{  opacity: 0;}
+}
 @media screen and (min-width: 768px) {
     footer .footer-content { font-size: 16px}
     footer .footer-btns>* {
@@ -599,6 +602,7 @@ li.footer-icon_li {
         height: 66px;
         border-radius: 33px
     }
+    
 }
 
 @media screen and (max-width: 991.98px) {
