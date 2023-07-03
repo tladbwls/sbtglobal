@@ -128,3 +128,69 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
 .salesforce-wrapper .SF-txt span {font-size: var(--fs-18); font-weight: var(--fw-600); color: var(--color-blue);}
 .salesforce-wrapper .SF-txt p {margin-bottom: 3rem; font-size: var(--fs-18); line-height: 160%; color: var(--color-gray-7); text-align: center;}
 .salesforce-wrapper .SF-txt h2 {margin-top: 1rem; margin-bottom: 2rem;}
+
+
+#navbar {
+  overflow: hidden;
+  background: #fff;
+  height: 72px;
+  z-index: 700;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* border-bottom: 1px solid var(--color-gray-4); */
+
+}
+#navbar.sticky {
+  position: fixed;
+}
+
+#navbar .container{
+  overflow: hidden;
+}
+
+#navbar li{
+  float: left;
+}
+
+#navbar li:not(:first-child){
+  margin-left: 60px;
+}
+
+#navbar .line {border: 1px solid black;}
+
+#navbar a {
+  position: relative;  
+  display: block;
+  font-size: var(--fs-18);
+  font-weight: var(--fw-500);
+  color: var(--color-gray-4);
+  padding: 25px 0;
+
+  border: 1px solid #000;
+}
+
+#navbar a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  height: 2px;
+  background-color: var(--color-gray-9);
+  transition: 0.3s;
+  width: 0;
+}
+
+#navbar li:hover a::after{
+  width: 100%;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#navbar .container {margin-top: 0;}
