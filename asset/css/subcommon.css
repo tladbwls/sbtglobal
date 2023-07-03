@@ -102,7 +102,7 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
 .head-section .location ul li {font-weight: var(--fw-600); font-size: var(--fs-15); color: var(--color-gray-8);}
 .head-section .location ul li:nth-child(2)::after {content: "/"; margin-left: 1rem; color: var(--color-gray-4);}
 .head-section .location ul li span {display: inline-block; width: 24px; height: 24px;}
-.head-section .location ul li span::after {content: ''; display: inline-block; width: 16px; height: 16px; background: url(/../img/home-icon.svg) no-repeat center center;}
+.head-section .location ul li span::after {content: ''; display: inline-block; width: 16px; height: 16px; background: url(asset/img/home-icon.svg) no-repeat center center;}
 .head-section h1 {text-align: center; margin-bottom: var(--el-wide);}
 
 /* why */
