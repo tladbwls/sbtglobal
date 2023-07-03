@@ -15,7 +15,7 @@ header {background-color:  rgba(0, 0, 0, 0.8);}
 footer {background-color: var(--color-gray-0);}
 footer .footer-content-wrap {color: var(--color-gray-6); border-top: none;}
 section {width: 100%; height: auto; margin-bottom: var(--el-section);}
-.container {width: 100%; max-width: 1500px; height: auto; margin: 0 auto;}
+.container {width: 100%; max-width: 1400px; height: auto; margin: 0 auto;}
 .sub-text {color: var(--color-gray-7); font-size: var(--fs-18); font-style: normal; font-weight: var(--fw-400); line-height: 160%;}
 button {width: fit-content; height: 55px; color: var(--color-gray-7); border: 1px solid var(--color-gray-3); font-weight: var(--fw-500); border-radius: 0.75rem;}
 button a {margin: 1.125rem 2.25rem; }
