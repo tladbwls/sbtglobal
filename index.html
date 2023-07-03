@@ -55,7 +55,7 @@
 
 
 
-  <!--#####===== 필수 JS 라이브러리 =====#####-->\
+  <!--#####===== 필수 JS 라이브러리 =====#####-->
   <!-- 부트스트랩 -->
   <script src="asset/js/bootstrap.min.js"></script>
 
@@ -74,22 +74,33 @@
     <div class="fixed-wrap">
       <div class="header-inner">
         <h1 class="logo">
-          <a href="" class="logo-img">
+          <a href="index.html" class="logo-img">
           </a>
         </h1>
         <div class="header-right-wrap">
           <ul class="btn-list">
-            <li class="btn-item mr-20">
-              <a class="btn-login-pc" href="">SERVICES </a>
+            <li class="btn-item mr-20 sub-menu">
+              <a class="btn-login-pc" href="">SERVICES</a>
+              <div class="btn-item-list">
+                <div>
+                  <a href="SAP.html">SAP</a>
+                </div>
+                <div>
+                  <a href="Salesforce.html">Salesforce C&amp;I</a>
+                </div>
+                <div>
+                  <a href="Data-Bi.html">Data&amp;BI</a>
+                </div>
+              </div>
             </li>
             <li class="btn-item mr-20">
-              <a class="btn-login-pc" href="">SOLUTIONS </a>
+              <a class="btn-login-pc" href="solution.html">SOLUTIONS </a>
             </li>
             <li class="btn-item mr-20">
-              <a class="btn-login-pc" href="">CUSTOMER STORIES </a>
+              <a class="btn-login-pc" href="customer.html">CUSTOMER STORIES </a>
             </li>
             <li class="btn-item mr-20">
-              <a class="btn-login-pc" href="">COMPANY </a>
+              <a class="btn-login-pc" href="company.html">COMPANY </a>
             </li>
           </ul>
           <div class="btnPcNav menu-btn-wrap">
@@ -103,22 +114,22 @@
           <div class="inner-wrap">
             <ul class="menu-list-wrap">
               <li class="menu-list ">
-                <a href="" target="_self">
+                <a href="SAP.html" target="_self">
                   <p class="text">SERVICES</p>
                 </a>
               </li>
               <li class="menu-list ">
-                <a href="" target="_self">
+                <a href="solution.html" target="_self">
                   <p class="text">SOLUTIONS</p>
                 </a>
               </li>
               <li class="menu-list ">
-                <a href="" target="_self">
+                <a href="customer.html" target="_self">
                   <p class="text">CUSTOMER </p>
                 </a>
               </li>
               <li class="menu-list ">
-                <a href="" target="_self">
+                <a href="company.html" target="_self">
                   <p class="text">COMPANY </p>
                 </a>
               </li>
@@ -171,17 +182,20 @@
               </h2>
               <p class="sub-title" style="opacity: 1;"> SBT Global은 Data & BI 기반 엔터프라이즈 애플리케이션 토탈 서비스 기업입니다</p>
             </div>
-            <div class="ani-wrap" style="opacity: 1;">
-              <div class="three-wrap">
-                <!--<div class="three-area">
-          <div class="top-left"></div>
-          <div class="left-bot"></div>
-          <div class="bot-right"></div>
-          <div class="right-top"></div>
-        </div>
-      -->
-
+            <div class="ani-wrap" style="opacity: 1;" >
+              <div class="three-wrap moblie">
+                <div class="three-area">
+                <div class="top-left"></div>
+                <div class="left-bot"></div>
+                <div class="bot-right"></div>
+                <div class="right-top"></div>
               </div>
+           </div>
+      
+      <video autoplay muted loop id="myVideo" playsinline class="pc">
+        <source src="asset/img/Backgrounds_mov.mp4" type="video/mp4" >
+      </video>
+
             </div>
             <div class="scroll-guide-wrap area" style="opacity: 1;">
               <a href="#main_about" class="scroll-btn">
@@ -246,7 +260,7 @@
 
 
                       </svg>
-                      <div class="logo-wrap logo-wrap-dsp">
+                      <!--<div class="logo-wrap logo-wrap-dsp">
                         <img class="img none-md" src="asset/img/sale.png" alt="sale">
                         <img class="img none block-md" src="asset/img/sale.png" alt="sale">
                       </div>
@@ -257,10 +271,10 @@
                       <div class="logo-wrap logo-wrap-ai">
                         <img class="img none-md" src="asset/img/ai.png" alt="sap">
                         <img class="img none block-md" src="asset/img/ai.png" alt="sap">
-                      </div>
+                      </div>-->
                       <div class="logo-wrap logo-wrap-main">
                         <div class="img-wrap">
-                          <img class="img none-lg" src="asset/img/sou.png" alt="solution">
+                         <img class="img none-lg" src="asset/img/sou.png" alt="solution">
                           <img class="img none block-lg" src="asset/img/sou.png" alt="solution">
                         </div>
                       </div>
@@ -341,7 +355,9 @@
                 <div class="video-wrap" id="vi-video-1-container">
                   <div class="video">
                     <div class="img-bg">
-                      <div class="icon-bg"></div>
+                      <div class="video">
+                        <img src="asset/img/line3.png">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -464,9 +480,9 @@
                 </h3>
                 <p class="desc"><span class="point"> 업계 최고 수준의 IT서비스를 제공할 수 있게 됐다. </span>
                   <br class="none block-lg">이번 차세대 전사자원관리(ERP) 구축으로 생산, 구매, 물류, 영업, 서비스,
-                  <br class="none block-lg"> 재무 등 전 영역에 걸쳐 IT기술을 보다
-                  <br class="none block-lg">안정적으로 접목하고, ERP상의 빅데이터의 활용수준을 향상시켜
-                  <br class="none block-lg"> 업계 최고 수준의 IT서비스를 제공할 수 있게 됐다”고 밝혔다.
+                 재무 등 전 영역에 걸쳐 IT기술을 보다
+                  안정적으로 접목하고, ERP상의 빅데이터의 활용수준을 향상시켜
+                   업계 최고 수준의 IT서비스를 제공할 수 있게 됐다”고 밝혔다.
                   <br> <br class="none block-lg">차세대 DX 프로젝트 리더<span class="point"> Coway</span>
                 </p>
                 <div class="btn-wrap">
@@ -514,7 +530,7 @@
                   <div class="item-project col-auto item-6">
                     <div class="img-wrap">
                       <div class="img-logo"
-                        style="background-image:url(asset/img/logo_w2.png); background-size: contain;"></div>
+                        style="background-image:url(asset/img/Youone.png); background-size: contain;"></div>
                     </div>
                   </div>
                   <div class="item-project col-auto item-7">
@@ -560,7 +576,7 @@
                   </li>
                   <li class="item-project col-auto">
                     <div class="img-wrap">
-                      <div class="img-logo" style="background-image:url(asset/img/Coway_logo.png)"></div>
+                      <div class="img-logo" style="background-image:url(asset/img/GS_logo.svg)"></div>
                     </div>
                   </li>
                   <li class="item-project col-auto">
@@ -575,7 +591,7 @@
                   </li>
                   <li class="item-project col-auto">
                     <div class="img-wrap">
-                      <div class="img-logo" style="background-image:url(asset/img/main-circle-logo-01@2x.png)"></div>
+                      <div class="img-logo" style="background-image:url(asset/img/Youone.png)"></div>
                     </div>
                   </li>
                   <li class="item-project col-auto">
@@ -644,7 +660,7 @@
                   </li>
                   <li class="item-project col-auto">
                     <div class="img-wrap">
-                      <div class="img-logo" style="background-image:url(asset/img/main-circle-logo-09@2x.png)"></div>
+                      <div class="img-logo" style="background-image:url(asset/img/cjlogic.png)"></div>
                     </div>
                   </li>
                   <li class="item-project col-auto">
@@ -670,38 +686,38 @@
                   </li>
                   <li class="item-project col-auto">
                     <div class="img-wrap">
-                      <div class="img-logo" style="background-image:url(asset/img/main-circle-logo-09@2x.png)"></div>
+                      <div class="img-logo" style="background-image:url(asset/img/cgv.png)"></div>
                     </div>
                   </li>
                   <li class="item-project col-auto">
                     <div class="img-wrap">
-                      <div class="img-logo" style="background-image:url(asset/img/main-circle-logo-10@2x.png)"></div>
+                      <div class="img-logo" style="background-image:url(asset/img/GS_logo.svg)"></div>
                     </div>
                   </li>
                   <li class="item-project col-auto">
                   <li class="item-project col-auto">
                     <div class="img-wrap">
-                      <div class="img-logo" style="background-image:url(asset/img/main-circle-logo-06@2x.png)"></div>
+                      <div class="img-logo" style="background-image:url(asset/img/Coway_logo.png)"></div>
                     </div>
                   </li>
                   <li class="item-project col-auto">
                     <div class="img-wrap">
-                      <div class="img-logo" style="background-image:url(asset/img/main-circle-logo-07@2x.png)"></div>
+                      <div class="img-logo" style="background-image:url(asset/img/logo_w2.png)"></div>
                     </div>
                   </li>
                   <li class="item-project col-auto">
                     <div class="img-wrap">
-                      <div class="img-logo" style="background-image:url(asset/img/main-circle-logo-08@2x.png)"></div>
+                      <div class="img-logo" style="background-image:url(asset/img/cjlogic.png)"></div>
                     </div>
                   </li>
                   <li class="item-project col-auto">
                     <div class="img-wrap">
-                      <div class="img-logo" style="background-image:url(asset/img/main-circle-logo-09@2x.png)"></div>
+                      <div class="img-logo" style="background-image:url(asset/img/data&bi.svg)"></div>
                     </div>
                   </li>
                   <li class="item-project col-auto">
                     <div class="img-wrap">
-                      <div class="img-logo" style="background-image:url(asset/img/main-circle-logo-10@2x.png)"></div>
+                      <div class="img-logo" style="background-image:url(asset/img/SAP_logo.svg)"></div>
                     </div>
                   </li>
                 </ul>
@@ -757,15 +773,14 @@
               <div class="row">
                 <div class="item">
                   <p class="title">문의</p>
-                  <p class="cont"><a class="cont-tel" href="tel:032-715-5274">031-724-2680</a><a
-                      href="mailto:contact@">contact@
+                  <p class="cont"><a class="cont-tel" href="tel:031-724-2680">031-724-2680</a><a
+                      href="mailto:admin@sbtglobal.com">admin@sbtglobal.com
                     </a></p>
-                </div><a href="mailto:c\co.kr">
-                </a>
-                <div class="item"><a href="mailto:.co.kr">
+                </div>
+               
+                <div class="item">
                     <p class="title">FAX</p>
-                  </a>
-                  <p class="cont"><a href="mailto:"></a><a href="javascript:;">031-724-2683</a></p>
+                  <p class="cont"><a href="javascript:;">031-724-2683</a></p>
                 </div>
               </div>
             </div>
@@ -779,9 +794,16 @@
             <div>
               </a>
             </div>
-            <small class="copyright">
-              ⓒ <span class="site-name">SBT Global</span> ALL RIGHTS RESERVED.
-            </small>
+            <div class="family-copy">
+               
+              <div class="family-site" style="color:#fff; border-bottom: 1px solid #fff;">
+                <p>FAMILY SITE</p>
+                <span></span>
+              </div>
+              <small class="copyright">
+                ⓒ <span class="site-name">SBT Global</span> ALL RIGHTS RESERVED.
+              </small>
+            </div>
           </div>
         </div>
         <div class="footer-btns bottom-fixed" style="display: block;">
@@ -817,4 +839,6 @@
 
     tl.to(".planet", 10, { rotation: 360, svgOrigin: "500 500", ease: Linear.easeNone });
     tl.to(".planet text", 10, { rotation: -360, transformOrigin: "center center", ease: Linear.easeNone }, 0);
+
+
   </script>

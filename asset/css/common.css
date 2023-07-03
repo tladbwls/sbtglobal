@@ -1,4 +1,5 @@
-﻿
+﻿/* google icon */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
 /*nav*/
 
 body.pc-nav-open { overflow: hidden;}
@@ -109,6 +110,38 @@ body.pc-nav-open { overflow: hidden;}
     height: 100%;
     cursor: pointer;
 }
+
+.header-right-wrap .sub-btn {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    width: 23rem;
+}
+.header-right-wrap .sub-menu .btn-item-list {
+    display: none;
+    position: absolute;
+    margin-top: 6rem;
+}
+.header-right-wrap .sub-menu:hover .btn-item-list {
+    width: 21rem;
+    display: flex;
+}
+.header-right-wrap .sub-menu .btn-item-list div {
+    padding: 24px 18px;
+}
+.header-right-wrap .sub-menu .btn-item-list a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #B0B5BC;
+    
+}
+.header-right-wrap .sub-menu .btn-item-list a:hover{
+    color: #fff;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.25rem;
+    
+}
+
 .menu-btn { width: 30px;}
 .menu-btn .line {
     margin: 5px 0;
@@ -511,14 +544,47 @@ li.footer-icon_li {
     padding: 80px 0
 }
 
+.family-copy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: var(--el-wide);
+}
+.family-site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 260px;
+    height: auto;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--color-gray-5);
+}
+.family-site span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+.family-site span::after {
+    content: '\e941';
+    font-family: 'Material Icons Outlined';
+    font-size: 16px;
+    color: var(--color-gray-7);
+}
+.family-site p {
+    color: var(--color-gray-7);
+}
 
 @media screen and (min-width: 360px) {
     footer .footer-bottom .footer-link-wrap {
         overflow-x: inherit;margin-bottom: 20px;
     }
+   
+    
 }
-
-
+@media screen and (max-width: 420px) {
+footer .footer-btns:hover .btn-contact .open-panel .text{  opacity: 0;}
+}
 @media screen and (min-width: 768px) {
     footer .footer-content { font-size: 16px}
     footer .footer-btns>* {
@@ -536,6 +602,7 @@ li.footer-icon_li {
         height: 66px;
         border-radius: 33px
     }
+    
 }
 
 @media screen and (max-width: 991.98px) {
