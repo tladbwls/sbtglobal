@@ -69,6 +69,7 @@
   position: relative;}
   video {
     width: 100%;
+    opacity: 0.3;
   }
   .SAPservice-wrapper .EI-section .video .video-text {
     position: absolute;

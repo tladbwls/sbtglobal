@@ -45,7 +45,7 @@
     font-weight: 500;
 }
 
-.mv-sec .inner .text-wrap .title:last-of-type { margin-top: -10px;}
+.mv-sec .inner .text-wrap .title:last-of-type { margin-top: 0px;}
 .mv-sec .inner .text-wrap .sub-title {
     margin-top: 15px;
     font-size: 18px;
@@ -62,14 +62,15 @@
     height: 120vmin;
     opacity: 0;
 }
+.mv-sec .inner .ani-wrap .moblie .three-area{display: none;}
 .mv-sec .inner .ani-wrap video {width: 120%;}
 .mv-sec .inner .ani-wrap .three-wrap {
     position: absolute;
-    top: 50%;
+    top: 50%;    right: 0;
     transform: translateY(-50%);
     width: 75%;
     height: 75%}
-
+.mv-sec .inner .ani-wrap .moblie .three-area{display: none;}
 .mv-sec .inner .ani-wrap .three-wrap .three-area {
     position: relative;
     width: 100%;
@@ -90,10 +91,10 @@
     height: 70%;
     border-radius: 100%;
     box-sizing: border-box;
-    box-shadow: -3vmin 3vmin 3vmin 0 #108BA8 inset, 1vmin -1vmin 0.125vmin -1.25vmin var(--line);
+    box-shadow: -3vmin 3vmin 3vmin 0 #2a68d3 inset, 1vmin -1vmin 0.125vmin -1.25vmin var(--line);
   background: radial-gradient(circle at 36% 64%,  rgba(255, 255, 255, 0) 0 calc(53.5% - 1px),  
    var(--line) 53.5% 54%,  rgba(19, 184, 179, 0) calc(54% + 1px) 100%), 
-   radial-gradient(circle at 38% 62%,  rgba(255, 255, 255, 0) 0 calc(54.5% - 1px),  var(--line) 54.5% 55%,  
+   /*radial-gradient(circle at 38% 62%,  rgba(255, 255, 255, 0) 0 calc(54.5% - 1px),  var(--line) 54.5% 55%,  
    rgba(255, 255, 255, 0) calc(55% + 1px) 100%), 
    radial-gradient(circle at 42% 58%,  rgba(255, 255, 255, 0) 0 calc(57.75% - 1px),  
    var(--line) 57.75% 58%,  rgba(255, 255, 255, 0) calc(58% + 1px) 100%), 
@@ -111,7 +112,7 @@
      var(--line) 67.75% 68.25%,  rgba(255, 255, 255, 0) calc(68.25% + 1px) 100%), 
      radial-gradient(circle at 49% 51%,  
      rgba(255, 255, 255, 0) 0 calc(69.5% - 1px), 
-      var(--line) 69.5% 70%,  
+      var(--line) 69.5% 70%,  */
      rgba(255, 255, 255, 0) calc(70% + 1px) 100%);
 }
 .mv-sec .inner .ani-wrap .three-wrap .three-area .top-left {
@@ -296,8 +297,8 @@
    .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-main::after {
        content: "";
        position: absolute;
-       width: 270px;
-       height: 270px;
+       width: 200px;
+       height: 200px;
        background-image: url(../img/main-graphic-05.png);
        background-repeat: no-repeat;
        background-position: 0 0;
@@ -307,7 +308,7 @@
    
    
    .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-main .img-wrap {
-       width: 180px
+       width: 410px
    }
    
    .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-main .img-wrap .img {
@@ -316,11 +317,6 @@
    }
 
  
-
-
-
-
-
 
 
 /*contact*/
@@ -476,7 +472,7 @@
 .m-project-wrap .item-project .img-wrap {
     position: relative;
     border-radius: 50%;
-    border: 1px solid #5d4de2;
+    border: 1px solid #056dec;
     width: 120px;
 }
 .m-project-wrap .item-project .img-wrap:before {
@@ -488,7 +484,10 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%,  -50%);
+    width: 90%;
 }
+
+.m-project-wrap .item-project .img-logo{background-size: contain;}
 @-webkit-keyframes scroll-left {
     from {
     transform: translate(0%,  0);
@@ -611,9 +610,10 @@ to {
 .pc-project-wrap .img-wrap {
     position: relative;
     border-radius: 50%;
-    border: 1px solid #4dd6e261;
-    box-shadow: #4dd6e261 -2px -2px 5px;
+    border: 1px solid #056dec;
+    box-shadow: #056dec59 -2px -2px 5px;
 }
+
 
 .pc-project-wrap .img-wrap:before {
     content: '';
@@ -656,6 +656,8 @@ to {
 .mv-sec .inner .ani-wrap video {
     width: 180%;
 }
+.mv-sec .inner .ani-wrap .moblie .three-area{display: block}
+.mv-sec .inner .ani-wrap video {display: none;}
     .mv-sec .inner .scroll-guide-wrap {
     bottom: 5.21105vw;
     left: 50%;
@@ -702,8 +704,7 @@ to {
             .mv-sec .inner .scroll-guide-wrap .scroll-btn {
             margin-left: auto;
         }
-            .project-title-wrap .desc {
-            font-size: 1.66806vw;
+           
         }
         }
 @media screen and (max-width: 991.98px) {
@@ -786,10 +787,10 @@ to {
         margin: .3127vw 0 1.56348vw 0;
     }
     .contact .txt-tag {
-        font-size: 1.85078vw;
+        font-size: 20px
     }
     .contact .txt-title {
-        font-size: 1.87617vw;
+        font-size:17px;
     }
     
 
@@ -913,7 +914,7 @@ to {
         .project-title-wrap {
         width: 33.33%}
             .project-title-wrap .desc {
-            font-size: 20px;
+            font-size: 17px;
         }
         }
 @media screen and (min-width: 1600px) {
@@ -1044,4 +1045,5 @@ to {
     width: 200px;
 }
 }
+
 
