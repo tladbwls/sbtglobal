@@ -9,15 +9,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
   word-break: keep-all;
   letter-spacing: -0.02em;
+  scroll-behavior: smooth;
+  scroll-snap-align: center;
 }
 body {background: #fff;}
 header {background-color:  rgba(0, 0, 0, 0.8);}
 footer {background-color: var(--color-gray-0);}
 footer .footer-content-wrap {color: var(--color-gray-6); border-top: none;}
-section {width: 100%; height: auto; margin-bottom: var(--el-section);}
+section {width: 100%; height: auto; margin-bottom: var(--el-section); padding-top: 100px;}
 .container {width: 100%; max-width: 1400px; height: auto; margin: 0 auto;}
 .sub-text {color: var(--color-gray-7); font-size: var(--fs-18); font-style: normal; font-weight: var(--fw-400); line-height: 160%;}
 button {width: fit-content; height: 55px; color: var(--color-gray-7); border: 1px solid var(--color-gray-3); font-weight: var(--fw-500); border-radius: 0.75rem;}
+button:hover{background: var(--color-gray-4); transition: all 1s ease;}
 button a {margin: 1.125rem 2.25rem; }
 h1 {color: var(--color-gray-8); font-size: var(--fs-48); font-weight: var(--fw-title);}
 h2 {color: var(--color-gray-8); font-size: var(--fs-36); font-weight: var(--fw-title); letter-spacing: -0.01em;}
@@ -61,6 +64,10 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
 .sub-nav ul li a:hover {color: var(--color-gray-9); transition: all 1s ease;}
 /* .sub-nav ul li a:hover::after{content: ''; display: inline-block; width: 100%; border-bottom: 2px solid var(--color-gray-9);} */
 
+.main-nav .header.sub-page {position: static !important;}
+.about-nav .header.fixed.sub-page.sub-header { position: static !important;}
+.about-nav .header.sub-page { position: static;}
+.header.sub-page .fixed-wrap {position: static;}
 
 /* swiper slide */
 .swiper {
@@ -105,7 +112,7 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
 
 
 /* head-section */
-.head-section {margin-top: 100px;}
+.head-section {margin-top: 80px;}
 .head-section .container {margin-top: var(--el-section);}
 .head-section .location ul {display: flex; align-items: flex-start; gap: 1rem;}
 .head-section .location ul li {font-weight: var(--fw-600); font-size: var(--fs-15); color: var(--color-gray-8);}
@@ -143,7 +150,7 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
   overflow: hidden;
   background: #fff;
   height: 72px;
-  z-index: 700;
+  z-index: 600;
   position: relative;
   top: 0;
   left: 0;
@@ -153,6 +160,7 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
 }
 #navbar.sticky {
   position: fixed;
+  z-index: 700;
 }
 
 #navbar .container{
@@ -176,10 +184,10 @@ h3 {font-size: var(--fs-18); font-weight: var(--fw-400); color: var(--color-gray
   font-weight: var(--fw-500);
   color: var(--color-gray-4);
   padding: 25px 0;
-
-  border: 1px solid #000;
 }
-
+#navbar a:hover {
+  color: var(--color-gray-9);
+}
 #navbar a::after {
   content: '';
   position: absolute;
