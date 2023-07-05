@@ -112,8 +112,8 @@
      var(--line) 67.75% 68.25%,  rgba(255, 255, 255, 0) calc(68.25% + 1px) 100%), 
      radial-gradient(circle at 49% 51%,  
      rgba(255, 255, 255, 0) 0 calc(69.5% - 1px), 
-      var(--line) 69.5% 70%,  */
-     rgba(255, 255, 255, 0) calc(70% + 1px) 100%);
+      var(--line) 69.5% 70%, 
+     rgba(255, 255, 255, 0) calc(70% + 1px) 100%); */
 }
 .mv-sec .inner .ani-wrap .three-wrap .three-area .top-left {
     left: 11vmin;
@@ -230,7 +230,7 @@
 }
 .about-sec .flex-row .bottom-wrap .inner-bottom {
     position: relative;
-    height: 340px;
+    height: 440px;
     width: 100%
 }
 .about-sec .flex-row .bottom-wrap .inner-bottom .circle {
@@ -378,7 +378,8 @@
 .dsp .video {
     width: 100%;
     padding-bottom: 2.2%;
-    text-align: center;}
+    text-align: center;
+}
 
 .dsp .list-txt {
     display: flex;
@@ -440,6 +441,11 @@
     margin-top: 30px;
 }
 
+.dsp .videosales {
+    width: 60%;
+    padding-bottom: 2.2%;
+    text-align: center;
+}
 .m-project-wrap {
     position: relative;
     margin-top: 60px;
@@ -488,6 +494,8 @@
 }
 
 .m-project-wrap .item-project .img-logo{background-size: contain;}
+/**/
+
 @-webkit-keyframes scroll-left {
     from {
     transform: translate(0%,  0);
@@ -706,7 +714,7 @@ to {
         }
            
         }
-        }
+        
 @media screen and (max-width: 991.98px) {
     .mv-sec .inner .text-wrap .title:first-of-type {
     margin-top: 10px;
@@ -943,7 +951,7 @@ to {
         height: 672px
     }
     .about-sec .flex-row .bottom-wrap .inner-bottom .circle .logo-wrap-main .img-wrap {
-        width:300px
+        width:410px
     }
 
         .contact .title-st1 { font-size: 45px;}

@@ -280,7 +280,7 @@ body.pc-nav-open { overflow: hidden;}
         padding: 0 15px;
         transition: height .6s;
     }
-    .header .logo { width: 180px;}
+    .header .logo { width: 140px;}
     .header-right-wrap .btn-list {display: flex;}
     .header-right-wrap .btn-list .btn-item:hover::after { width: 100%}
     .menu-btn {width: 35px;    }
@@ -575,6 +575,7 @@ li.footer-icon_li {
     color: var(--color-gray-7);
 }
 
+.copyright{margin-top:20px}
 @media screen and (min-width: 360px) {
     footer .footer-bottom .footer-link-wrap {
         overflow-x: inherit;margin-bottom: 20px;

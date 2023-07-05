@@ -81,7 +81,7 @@
     <div class="fixed-wrap">
       <div class="header-inner">
         <h1 class="logo">
-          <a href="" class="logo-img">
+          <a href="index.html" class="logo-img">
           </a>
         </h1>
         <div class="header-right-wrap">
@@ -205,9 +205,24 @@
           <div class="salesforce-logo"></div>
         </div>
       </div>
+      <div id="navbar">
+        
+        <ul class="container">
+          <li id="box1">
+            <a href="javascript:void(0)">세일즈포스란?</a>
+          </li>
+          <li id="box2">
+            <a href="javascript:void(0)">WHY Salesforce?</a>
+          </li>
+          <li id="box3">
+            <a href="javascript:void(0)">Benefits</a>
+          </li>
+        </ul>    
+        <div class="line"></div>
+      </div>
     </section>
 
-    <section class="what-section">
+    <section class="what-section box1">
       <div class="container">
         <div class="SF-txt">
           <span>What</span>
@@ -223,7 +238,7 @@
         </div>
       </div>
     </section>
-    <section class="why-section">
+    <section class="why-section box2">
       <div class="container">
         <div class="SF-txt">
           <span>Why Salesforce?</span>
@@ -236,7 +251,7 @@
       </div>
 
     </section>
-    <section class="benefits-section">
+    <section class="benefits-section box3">
       <div class="container">
         <div class="SF-txt">
         <span>BENEFITS</span>
@@ -359,3 +374,22 @@
   <!-- #####===== swiper slide JS =====#####
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="asset/js/swiper-slide.js"></script> -->
+  <script src="asset/js/sub-script.js"></script>
+
+  <script>
+    window.onscroll = function() {
+      myFunction();
+    };
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    
+  </script>
