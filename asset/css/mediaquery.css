@@ -1,0 +1,445 @@
+@media screen and (max-width: 768px) {  
+  .container h1{
+    font-size: var(--fs-36);
+  }
+
+  br{
+    /* br 없애기 */
+    display: inline-block;
+    content: " ";
+    padding: 0;
+  }
+
+  /* location */
+
+  .location{
+    margin-bottom: 12px;
+    justify-content: center;
+    display: flex;
+  }
+ 
+  .head-section .location ul li span::after{
+    width: 100%;
+  }
+  .location ul li{
+    height: 100%;
+  }
+  .location ul li:last-child{
+    color: var(--color-gray-0);
+    font-weight: var(--fw-500);
+  }
+  
+  /* Common */
+
+  .head-section{
+    margin-top: 0;
+    /* border: 1px solid red; */
+  }
+
+  .head-section h1{
+    font-size: var(--fs-42);
+    font-weight: var(--fw-500);
+  }
+  
+  .salesforce-wrapper .SF-txt span,
+  .Data-Bi-wrapper .BI-txt span{
+    /* "WHAT" */
+    font-size: var(--fs-15);
+    font-weight: var(--fw-600);
+    text-transform: uppercase;
+    letter-spacing: 0px;
+  }
+
+  .salesforce-wrapper .SF-txt h2,
+  .Data-Bi-wrapper .BI-txt h2{
+    /* "세일즈포스란?" */
+    font-size: var(--fs-30);
+    margin-top: 12px;
+    margin-bottom: 24px;
+    font-weight: var(--fw-500);
+  }
+  
+  .salesforce-wrapper .what-section .SF-txt p:nth-of-type(1),
+  .salesforce-wrapper .what-section .SF-txt p:nth-of-type(4){
+    font-weight: var(--fw-600);
+  }
+  
+  /* ========== Salesforce C&I =========== */
+
+  .salesforce-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Salesforce 01 - head-section */
+
+  .salesforce-wrapper .head-section{
+    height: 50vh;
+  }
+
+  .salesforce-wrapper .head-section h1{    
+    color: var(--color-gray-0);
+  }
+  
+  .salesforce-wrapper .head-section .head-img{    
+    position: absolute;
+    top: 70px;
+    height: 60vh;
+    background: url(/asset/img/sales-header-m.svg) no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+  } 
+
+  .salesforce-wrapper .head-section .head-img .container{
+    /* Header White Box */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: calc(100% - 3rem);
+    height: 30%;
+    background-color: #fff;
+  }
+
+  .salesforce-wrapper .head-section .head-img .container .txt h2 {
+    position: absolute;
+    bottom: 0;
+    left: 24px;
+    width: 270px;
+    font-size: var(--fs-27);
+    font-weight: var(--fw-500);
+    line-height: 130%;
+    letter-spacing: -0.54px;
+    color: var(--color-gray-8);
+  }
+
+  .salesforce-wrapper .head-section .head-img .container .txt p{
+    position: absolute;
+    top : 100%;
+    color: var(--color-gray-7);
+    text-align: left;
+    padding: 0 24px;
+    margin-top: 10px;
+  }  
+
+  .salesforce-wrapper .head-section .head-img .container .salesforce-logo{
+    width: 30%;
+    background-size: contain;
+    position: absolute;
+    bottom: 45%;
+    right: 12px;
+  }
+
+  /* Salesforce 02 - What Section */
+
+  .salesforce-wrapper .what-section{
+    padding: 0 36px;
+    background: #F7FBFF;
+    transform: translateY(120px);
+    margin: 0;
+  }
+
+  .salesforce-wrapper .what-section .container{
+    margin-top: 60px;
+    margin-bottom: 54px;
+  }
+
+  .salesforce-wrapper .what-section .SF-txt{
+    align-items: normal;
+  }
+
+  .salesforce-wrapper .what-section .SF-txt p{
+    text-align: start;
+    margin-bottom:  12px !important;
+    font-size: var(--fs-18) !important;
+  }
+
+  /* Salesforce 03 - Why Section */
+
+  .salesforce-wrapper .why-section{
+    margin-top: 0 !important;
+    padding-bottom: 60px;
+    margin-bottom: 0;
+  }
+
+  .salesforce-wrapper .why-section .container{
+    align-items: start;
+    flex-direction: column-reverse;
+  }
+
+  .salesforce-wrapper .why-section .SF-txt{
+    margin: 0 36px;
+    margin-top: 36px;
+  }
+
+  /* Salesforce 04 - Benefits-Section */
+
+  .salesforce-wrapper .benefits-section{
+    width: 100%;
+    margin-top: 140px !important;
+    padding: 0 36px;
+  }
+
+  .salesforce-wrapper .benefits-section .SF-txt span{
+    position: relative;
+  }
+
+  .salesforce-wrapper .benefits-section .SF-txt h2{
+    line-height: 130%;
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+  }
+
+  .salesforce-wrapper .benefits-section .SF-txt p{
+    margin-bottom: 0;
+  }
+
+  .salesforce-wrapper .benefits-section .SF-txt span:before{
+    /* Salesforce Logo */
+    content: '';
+    position: absolute;
+    bottom: calc(100% + 18px);
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: 86px;
+    height: 60px;
+    background: url(/asset/img/Salesforce.com_logo.svg) no-repeat center;
+    background-size: contain;
+  }
+
+  .salesforce-wrapper .benefits-section .benefit-img{
+    margin-top: 48px;
+    position: static;
+    height: 340px;
+    width: 100%;
+    background: url(/asset/img/Salesforce-circle-m.svg) no-repeat center;
+  }
+
+  .salesforce-wrapper .benefits-section button{
+    margin-top: 90px;
+  }
+
+  /* ========== Data & BI =========== */
+
+  .Data-Bi-wrapper{
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  /* Data & BI 01 - Head Section */
+  .Data-Bi-wrapper .head-section{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 0;
+  }
+
+  .Data-Bi-wrapper .head-section .container{
+    position: absolute;
+    top: 30%;
+    margin-top: 0 !important;
+  }
+
+  .Data-Bi-wrapper .head-section .container h1{
+    margin: 0;
+    color: var(--color-gray-0);
+  }
+
+  .Data-Bi-wrapper .head-section .rectangle{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    display: block;
+    transform: translate(-50%, -99%);
+    width: calc(100% - 3rem);
+    background-color: #fff;
+    height: 30%;
+    z-index: -1;
+  }
+
+  .Data-Bi-wrapper .head-section .Data-Bi-img{
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    height: 100%;
+  }
+
+  .Data-Bi-wrapper .head-section .Data-Bi-img:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);   
+  }
+
+  /* Data & BI 02 - What Section */
+
+  .Data-Bi-wrapper .what-section{
+    margin: 0 !important;
+    padding: 0 60px;
+  }
+
+  .Data-Bi-wrapper .what-section .container{
+    margin-top: 0;
+  }
+
+  .Data-Bi-wrapper .what-section .container .BI-txt{
+    align-items: normal;
+    margin-top: -24px;
+  }
+
+  .Data-Bi-wrapper .what-section .container .BI-txt p{
+    text-align: start;
+    font-size: var(--fs-18) !important;
+  }
+
+  /* Data & BI 03 - Why Section */
+
+  .Data-Bi-wrapper .why-section{
+    margin-top: 60px;
+    padding: 0 36px;
+    height: auto;
+  }
+
+  .Data-Bi-wrapper .why-section .container{
+    padding: 48px 0;
+  }
+
+  .Data-Bi-wrapper .why-section .container .BI-txt{
+    align-items: start;
+    padding: 0;
+  }
+
+  .Data-Bi-wrapper .why-section .container .BI-txt p{
+    text-align: start;
+  }
+  
+  .Data-Bi-wrapper .why-section .container .swiper{
+    margin-top: 24px;
+    cursor: pointer;
+  }
+
+  .Data-Bi-wrapper .why-section .swiper .swiper-wrapper .swiper-slide{
+    width: 100% !important;
+    margin-right: 12px !important;
+    padding: 36px 30px;
+    height: 330px;
+    justify-content: space-between;
+  }
+
+  .Data-Bi-wrapper .why-section .swiper .swiper-wrapper .swiper-slide span{
+    font-size: var(--fs-18);
+  }
+
+  .Data-Bi-wrapper .why-section .swiper .swiper-wrapper .swiper-slide div{
+    font-size: var(--fs-24);
+  }
+
+  .Data-Bi-wrapper .why-section .swiper .swiper-wrapper .swiper-slide p{
+    font-size: var(--fs-15);
+  }
+
+
+  /* ========= Customer Story ========== */
+
+  .customer-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Customer Story 01 - Head Section */
+  
+  .customer-wrapper .head-section{
+    position: relative;
+    top: 50px;
+    height: 60vh;
+    margin-bottom: 0;
+  }
+
+  .customer-wrapper .head-section .container{
+    border: 1px solid red;
+  }  
+
+  .customer-wrapper .head-section h1{
+    margin-bottom: 0;
+  }
+  
+  
+  /* Customer Sotry 02 - Story Section */
+
+  .customer-wrapper .story-section {
+    padding: 0 24px;
+  }
+  
+  .customer-wrapper .story-section .container{
+    flex-direction: column;
+    align-items: center;    
+    gap: 9px;
+  }
+
+  .customer-wrapper .story-section .container ul{
+    gap: 9px;
+    margin-top: 0 !important;
+  }
+
+  .customer-wrapper .story-section .container .line{
+    display: none;
+  }
+
+  .customer-wrapper .story-section .container ul li{
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+
+  .customer-wrapper .story-section ul li .logo-img {
+    width: 100%;
+    height: 120px;
+    background: url(../img/Coway.png) no-repeat center center;
+    margin: 36px auto;
+
+    background-size: contain;
+    border: 1px solid #000;
+  }
+
+  .customer-wrapper .story-section ul li .story-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .customer-wrapper .story-section ul li .title .sub-title {
+    width: fit-content;
+    padding: 3px 12px;
+    border-radius: 0.563rem;
+    background-color: var(--color-gray-2);
+    color: var(--color-gray-7);
+    font-size: var(--fs-15);
+    font-weight: var(--fw-500);
+  }
+  
+  .customer-wrapper .story-section ul li .story-txt p {
+    color: var(--color-gray-7);
+    font-size: var(--fs-21);
+    line-height: 160%;
+  }
+  
+  .customer-wrapper .story-section ul li .story-txt span {
+    color: var(--color-gray-7);
+    font-size: var(--fs-15);
+    line-height: 160%;
+  }
+
+
+
+
+}

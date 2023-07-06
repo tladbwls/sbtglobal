@@ -1,4 +1,31 @@
 
+// const buttonArr = document.querySelectorAll('#navbar .container li');
+
+// for (let i = 0; i < buttonArr.length; i++) {
+//   buttonArr[i].addEventListener('click', function(e) {
+//     e.preventDefault();
+//     const targetElement = document.querySelector('.box' + (i + 1));
+//     const targetRect = targetElement.getBoundingClientRect();
+//     const targetY = window.pageYOffset + targetRect.top - 118;
+
+//     window.scrollTo({
+//       top: targetY,
+//       behavior: 'smooth'
+//     });
+//   });
+// }
+// const buttonArr = document.querySelectorAll('#navbar .container li');
+
+
+// for(let i = 0; i < buttonArr.length; i++){
+//   buttonArr[i].addEventListener('click',function(e){
+//     e.preventDefault();
+//     document.querySelector('.box' + (i + 1)).scrollIntoView(true);
+    
+//   });
+  
+// } 
+
 const buttonArr = document.querySelectorAll('#navbar .container li');
 
 for (let i = 0; i < buttonArr.length; i++) {
@@ -6,7 +33,7 @@ for (let i = 0; i < buttonArr.length; i++) {
     e.preventDefault();
     const targetElement = document.querySelector('.box' + (i + 1));
     const targetRect = targetElement.getBoundingClientRect();
-    const targetY = window.pageYOffset + targetRect.top - 100;
+    const targetY = window.pageYOffset + targetRect.top - 150;
 
     window.scrollTo({
       top: targetY,
@@ -14,8 +41,8 @@ for (let i = 0; i < buttonArr.length; i++) {
     });
   });
 }
+  
 
-console.log(buttonArr);
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
@@ -24,5 +51,6 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  loop:true,
 
 });

@@ -44,8 +44,8 @@
 
   <!-- fontawesome -->
   <link rel="stylesheet" href="asset/css/all.min.css">
-  <!-- swiper slide -->
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> -->
+ <!-- pretendard font -->
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
   <!--#####===== 공통 CSS =====#####-->
   <link id="baseCss" href="asset/css/base.css" media="all" rel="stylesheet">
   <link href="asset/css/common.css" media="all" rel="stylesheet">
@@ -55,6 +55,8 @@
   <!--#####===== 서브페이지 CSS =====#####-->
   <link rel="stylesheet" href="asset/css/subcommon.css">
   <link rel="stylesheet" href="asset/css/sub.css">
+   <!--#####===== 미디어쿼리 CSS =====#####-->
+   <link rel="stylesheet" href="asset/css/mediaquery.css">
 
 
 
@@ -376,7 +378,7 @@
         <div class="video sub-section">
 
           <video muted autoplay loop>
-            <source src="asset/img/service.mp4" type="video/mp4" style="background: center cen;">
+            <source src="asset/img/service.mp4" type="video/mp4" >
           </video>
           <div class="video-text">
             <div> <strong>S/4HANA</strong>는 간소화된 데이터 모델, 린 아키텍처, <br>
@@ -458,7 +460,7 @@
             </ul>
           </div>
           <button>
-            <a href="jsvascript:0">
+            <a href="customer-story.html">
               Customer Stories 바로가기
             </a>
           </button>
@@ -483,17 +485,17 @@
                 체계적인 접근 방식을 마련하여 조직과 비용의 효율성을 높여줍니다.</p>
 
             </li>
-            <li style="background-color: var(--color-gray-1);">
+            <li style="background-color: var(--color-violet); color:var(--color-gray-0)">
               <img src="asset/img/Saving.svg" alt="">
-              <p>비즈니스 가치를 창출하고 <br>
+              <p style="color: var(--color-gray-0);">비즈니스 가치를 창출하고 <br>
                 SAP ERP 유지보수에 필요한 전문 지식과 기술을 제공합니다.</p>
 
             </li>
           </ul>
           <ul>
-            <li style="background-color: var(--color-gray-1);">
+            <li style="background-color: var(--color-violet);">
               <img src="asset/img/psychology.svg" alt="">
-              <p>ITO 서비스를 통해 비용을 절감하고 <br>
+              <p style="color: var(--color-gray-0);">ITO 서비스를 통해 비용을 절감하고 <br>
                 장애 및 시행착오와 관련된 위험 감축을 경험해보세요.</p>
 
             </li>
@@ -567,12 +569,12 @@
               <li>비용 절감</li>
               <li>보안 및 규정 준수 강화</li>
               <li>확장성</li>
-              <li>새로운 SPA 제품 및 서비스 이용</li>
+              <li>새로운 SPA 제품 및<br>서비스 이용</li>
               <li>성능 향상</li>
             </ul>
           </div>
           <button>
-            <a href="javascript:0">Customer Stories 바로가기</a>
+            <a href="customer-story.html">Customer Stories 바로가기</a>
           </button>
         </div>
       </div>
@@ -586,7 +588,7 @@
             푸터
     ==================================================-->
   <!-- 푸터 -->
-  <footer id="footer">
+  <footer id="footer" class="sub-footer">
     <div class="footer-content-wrap">
       <div class="area">
         <div class="footer-sns">
@@ -702,5 +704,6 @@
       navbar.classList.remove("sticky");
     }
   }
-  
+
+
 </script>
