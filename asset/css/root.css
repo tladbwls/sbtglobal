@@ -13,30 +13,8 @@
   --color-gray-9: #222529;
 
   --color-violet: #998EE8;
-  --color-violet-1: ;
-  --color-violet-2: ;
-  --color-violet-3: ;
-  --color-violet-4: ;
-  --color-violet-5: ;
-  --color-violet-6: ;
-  --color-violet-7: ;
-
-  --color-blue-1: ;
-  --color-blue-2: ;
-  --color-blue-3: ;
-  --color-blue-4: ;
-  --color-blue-5: ;
-  --color-blue-6: ;
-  --color-blue-7: ;
-
-  --color-green-1: ;
-  --color-green-2: ;
-  --color-green-3: ;
-  --color-green-4: ;
-  --color-green-5: ;
-  --color-green-6: ;
-  --color-green-7: ;
-
+  --color-teal: #6ECCA0;
+  --color-blue:#00A1E0;
 
 
   /* Font Weight */
@@ -54,7 +32,7 @@
   /* Font Size */
   --fs-9: 0.563rem;
   --fs-12: 0.75rem;
-  --fs-15: 0.938rem;
+  --fs-16: 1rem;
   --fs-18: 1.125rem;
   --fs-21: 1.313rem;
   --fs-24: 1.5rem;
@@ -86,4 +64,5 @@
   --el-medium: 1.5rem; /*24px*/
   --el-wide: 3.75rem; /*60px*/
   /* --el-section-small:3rem */
+
 }

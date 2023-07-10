@@ -18,6 +18,7 @@ var NAV = (function () {
 
       isHide ? scrollDeltaEvt() : '';
       scrollFixed(nowTop);
+      
     });
   }
 

@@ -1,27 +1,194 @@
-.head-section {width: 100%; height: auto; background-color: var(--color-gray-0);}
-.head-section .container {position: relative; display: flex; align-items: center; justify-content: flex-start; gap: 6.5rem; padding: 14rem 0;}
-.head-section .container .title {display: flex;}
-.head-section .container .title img {width: 116px; height: 57px; object-fit: contain;}
-.head-section .container .title h1 {color: var(--color-gray-8);}
-.head-section .container .text {color: var(--color-gray-6); font-weight: var(--fw-sub-title);}
-.head-section .container>img {position: absolute; top: 23rem; right: 0; width: 900px; height: 300px; border: 1px solid black;}
+/* google icon */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+/********************* solution-page **************************/
+/* .solution-wrapper .head-section {width: 100%; height: auto; background-color: var(--color-gray-0);}
+.solution-wrapper .head-section .container {position: relative; display: flex; align-items: center; justify-content: flex-start; gap: 6.5rem; padding: 14rem 0;}
+.solution-wrapper .head-section .container .title {display: flex;}
+.solution-wrapper .head-section .container .title .sap-logo {width: 116px; height: 57px; object-fit: contain; background: url(../img/SAP_logo.svg) center no-repeat;}
+.solution-wrapper .head-section .container .text {color: var(--color-gray-6); font-weight: var(--fw-sub-title);}
+.solution-wrapper .head-section .container .solution-img {position: absolute; top: 23rem; right: 0; width: 900px; height: 300px; background-color: var(--color-gray-3);} */
+.solution-wrapper .head-section {width: 100%; height: 540px; padding-top: 10.5rem; margin-top: 0; background-color: var(--color-gray-0);}
+.solution-wrapper .head-section .container {margin-top: 0;}
+.solution-wrapper .head-section .location ul li:nth-child(2)::after{content: ''; display: none;}
+.solution-wrapper .head-section .container .title {position: relative; display: flex; justify-content: center; align-items: center; gap: 6.25rem; margin-top: 6.25rem;}
+.solution-wrapper .head-section .container .title-logo {display: flex;}
+.solution-wrapper .head-section .container .title-logo .sap-logo {width: 116px; height: 57px; object-fit: contain; background: url(../img/SAP_logo.svg) center no-repeat;}
+.solution-wrapper .head-section .container .title .solution-img {position: absolute; top: 10rem; right: 0; width: 900px; height: 300px; background: url(../img/SAP-Solution-img.svg) no-repeat center center; background-size: cover;}
 
-.solution-wrapper .h3-txt {display: flex; align-items: center; gap: 0.75rem;}
-.solution-wrapper .h3-txt h3:nth-child(2) {color: var(--color-gray-3);}
+.solution-wrapper .span-txt {display: flex; align-items: center; gap: 0.75rem;}
+.solution-wrapper .span-txt span {color: var(--color-gray-7); font-weight: var(--fw-500); font-size: var(--fs-18);}
+.solution-wrapper .span-txt span:nth-child(2) {color: var(--color-gray-3);}
 .solution-wrapper .left {width: 45%; height: auto;}
 .solution-wrapper .left h2 {margin-bottom: var(--el-small);}
-.solution-wrapper .left h3 {margin-bottom: var(--el-wide);}
+.solution-wrapper .left span {margin-bottom: var(--el-wide);}
 .solution-wrapper .right {width: 55%;}
 .solution-wrapper .right>ul>li {display: flex; align-items: center; justify-content: space-around; gap: 2.25rem; padding: 3rem; margin-bottom: var(--el-normal); background-color: var(--color-gray-0); border-radius: 0.75rem;}
-.solution-wrapper .right>ul>li .li-left {width: 25%; height: auto; display: flex; flex-direction: column; gap: 0.25rem;}
-.solution-wrapper .right>ul>li .li-left div:nth-child(1) {width: fit-content; height: auto; padding: 0.25rem; border-radius: 0.25rem; font-weight: var(--fw-500); font-size: var(--fs-12); color: var(--color-gray-0); background: var(--color-violet);}
+.solution-wrapper .right>ul>li .li-left {width: 25%; height: auto; display: flex; flex-direction: column; gap: 0.563rem;}
+.solution-wrapper .right>ul>li .li-left div:nth-child(1) {width: fit-content; height: auto; padding: 0.25rem 0.375rem; border-radius: 0.25rem; font-weight: var(--fw-400); font-size: var(--fs-12); color: var(--color-gray-0); background: var(--color-violet);}
 .solution-wrapper .right>ul>li .li-left div:nth-child(2) {color: var(--color-gray-9); font-weight: var(--fw-500); font-size: var(--fs-24);}
-.solution-wrapper .right>ul>li .li-left div:nth-child(3) {color: var(--color-gray-5); font-weight: var(--fw-300); font-size: var(--fs-12);}
+.solution-wrapper .right>ul>li .li-left div:nth-child(3) {color: var(--color-gray-6); font-weight: var(--fw-400); font-size: var(--fs-12);}
+.solution-wrapper .right>ul>li .li-left span {color: var(--color-gray-5);}
 .solution-wrapper .right>ul>li .li-right {width: 75%; height: auto;}
-.solution-wrapper .right>ul>li .li-right div {color: var(--color-gray-7); line-height: 160%; font-weight: var(--fw-300); font-size: var(--fs-15);}
+.solution-wrapper .right>ul>li .li-right div {color: var(--color-gray-7); line-height: 160%; font-weight: var(--fw-400); font-size: var(--fs-16);}
 
-.MAS-section {margin-top: 24.5rem;}
-.MAS-section .container {display: flex; align-items: flex-start; justify-content: space-between;}
-.DataBackup-section .container {display: flex; align-items: flex-start; justify-content: space-between;}
+.solution-wrapper .MAS-section {margin-top: 24.5rem;}
+.solution-wrapper .MAS-section .container {display: flex; align-items: flex-start; justify-content: space-between;}
+.solution-wrapper .DataBackup-section .container {display: flex; align-items: flex-start; justify-content: space-between;}
 
-.other-section .container p {color: var(--color-gray-5); font-weight: var(--fw-500); font-size: var(--fs-18);}
+.solution-wrapper .other-section .container p {color: var(--color-gray-5); font-weight: var(--fw-500); font-size: var(--fs-18);}
+
+/*********************** SAPservice-page *************************/
+
+/* SAPservice-page (head-section) */
+.SAPservice-wrapper .head-section .service-img {width: 100%; height: 300px; background: url(../img/Service-SAP-img.svg) no-repeat center 60%; background-size: cover;}
+/* SAPservice-page (SAP solution section) */
+.SAPservice-wrapper .SS-section {margin-top: var(--el-section);}
+.SAPservice-wrapper .SS-section .container .title {display: flex;}
+.SAPservice-wrapper .SS-section .container .title .sap-logo {width: 80px; height: 39px; object-fit: cover; background: url(../img/SAP_logo.svg) center no-repeat; background-size: cover;}
+.SAPservice-wrapper .SS-section .container .contents-top {display: flex; flex-direction: column; gap: 1.875rem; margin-left: 5.625rem; margin-bottom: var(--el-wide);}
+.SAPservice-wrapper .SS-section .container .solution-grid {width: 100%;margin: auto;overflow: hidden;display: grid;grid-template-columns: 1fr 1fr 1fr;gap: 0.938rem; grid-auto-flow: row dense;}
+.SAPservice-wrapper .SS-section .container .boxes {width: 100%;height: auto;}
+.SAPservice-wrapper .SS-section .container .boxes .box {width: 100%;height: auto; padding: 3rem 2.625rem; background-color: #F6F6F9; border-radius: 0.875rem;}
+.SAPservice-wrapper .SS-section .container .boxes .box img {margin-bottom: var(--el-wide);}
+.SAPservice-wrapper .SS-section .container .boxes .box .box-txt span {font-size: var(--fs-12); color: var(--color-gray-5); margin-bottom: 0.25rem;}
+.SAPservice-wrapper .SS-section .container .boxes .box p {font-size: var(--fs-21); font-weight: var(--fw-500); color: var(--color-gray-8);}
+.SAPservice-wrapper .SS-section .container .boxes .box p:last-child {font-size: var(--fs-16); font-weight: var(--fw-400);color: var(--color-gray-7); margin-top: 1.625rem; line-height: 160%;}
+.SAPservice-wrapper .SS-section .container .boxFlex1 {display: grid;row-gap: 20px;}
+.SAPservice-wrapper .SS-section .container .boxFlex2 {display: grid;row-gap: 20px;}
+.SAPservice-wrapper .SS-section .container .boxFlex3 {display: grid;row-gap: 20px;}
+/* SAPservice-page (ERP Implementation-section) */
+.SAPservice-wrapper .EI-section {padding: 12.5rem 0; background-color: var(--color-gray-9); text-align: center;}
+.SAPservice-wrapper .EI-section .section-title {padding-bottom: 12.5rem; }
+.SAPservice-wrapper .EI-section .section-title h2 {color: var(--color-gray-0); margin-bottom: 1.125rem;}
+.SAPservice-wrapper .EI-section .section-title span {color: var(--color-gray-5); font-size: var(--fs-18);}
+.SAPservice-wrapper .EI-section .what {position: relative;}
+.SAPservice-wrapper .EI-section .what .hana-back {position: absolute; top: -7.5rem; left: 0; right: 0; font-size: 20rem; font-weight: 800; color: #282B2F;}
+.SAPservice-wrapper .EI-section .video {width: 100vw;
+  height: 556px;
+  overflow: hidden;
+  margin-left: calc(-50vw + 50%);
+  position: relative;}
+  video {
+    width: 100%;
+    opacity: 0.7;
+  }
+  .SAPservice-wrapper .EI-section .video .video-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .SAPservice-wrapper .EI-section .video .video-text div {
+    text-align: center;
+    font-size: var(--fs-24);
+    letter-spacing: -0.04em;line-height: 160%;
+    color: var(--color-gray-3);
+  }
+  .SAPservice-wrapper .EI-section .video .video-text div:first-child {
+    margin-bottom: var(--el-wide);
+  }
+  .SAPservice-wrapper .EI-section .benefit-content-box {margin-top: 1.875rem;}
+  .SAPservice-wrapper .EI-section .benefit-content-box ul {display: flex; align-items: center; justify-content: center; gap: var(--el-normal);     margin-bottom: var(--el-normal);}
+  .SAPservice-wrapper .EI-section .benefit-content-box ul:last-child {margin-bottom: 6.25rem;}
+  .SAPservice-wrapper .EI-section .benefit-content-box ul li {display: flex; align-items: center; justify-content: center;  width: 240px; height: 124px; background-color: #282b30;
+    ; border-radius: 0.563rem;}
+  .SAPservice-wrapper .EI-section .benefit-content-box ul li:hover {background-color: #303438; transform: translateY(-3px); transition: all .25s ease;}
+  .SAPservice-wrapper .EI-section .benefit-content-box ul li p {color: var(--color-gray-0); font-size: var(--fs-18);}
+  .SAPservice-wrapper .EI-section .benefits button {background-color:#2E3237 ; border: 1px solid #33373C;}
+  .SAPservice-wrapper .EI-section .benefits button:hover {background-color:#24272B; ; border: 1px solid #2F3237;}
+  .SAPservice-wrapper .EI-section .benefits button a {color: var(--color-gray-0);}
+
+/* SAPservice-page (ERP Implementation section) */
+.SAPservice-wrapper .ITO-section {padding-bottom: 12.5rem; text-align: center;}
+.SAPservice-wrapper .ITO-section .section-title h2 {color: var(--color-gray-8); margin-bottom: 1.125rem;}
+.SAPservice-wrapper .ITO-section .section-title span {color: var(--color-gray-7); font-size: var(--fs-18);}
+.SAPservice-wrapper .ITO-section .SAP-main-txt p:first-child {color: var(--color-gray-7);}
+.SAPservice-wrapper .ITO-section .what {padding: 0 12.5rem; text-align: start;}
+.SAPservice-wrapper .ITO-section .what ul {display: flex; align-items: center; justify-content: space-between; gap: 1.875rem; margin-bottom: 1.875rem;}
+.SAPservice-wrapper .ITO-section .what ul:last-child {margin-bottom: none;}
+.SAPservice-wrapper .ITO-section .what ul li {display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 2.25rem; width: 540px; _height: auto; padding: 2rem; border: 1px solid var(--color-violet); border-radius: 0.75rem;}
+.SAPservice-wrapper .ITO-section .what ul li p {color: var(--color-gray-7);}
+.SAPservice-wrapper .ITO-section .what ul li img {width: 48px; height: 48px; }
+.SAPservice-wrapper .ITO-section .why ul li .why-txt div {color: var(--color-gray-8);}
+.SAPservice-wrapper .ITO-section .why ul li .why-txt div:before {color: var(--color-gray-1); }
+.SAPservice-wrapper .ITO-section .why ul li .why-txt p {line-height: 150%; color: var(--color-gray-7);}
+.SAPservice-wrapper .ITO-section .benefits .benefit-content-box {margin-top: var(--el-normal); margin-bottom: 7.5rem;}
+.SAPservice-wrapper .ITO-section .benefits ul {display: flex; align-items: center; justify-content: center;}
+.SAPservice-wrapper .ITO-section .benefits ul li {display: flex; align-items: center; justify-content: center; width: 194px; height: 194px; margin-right:-1rem; border-radius: 50%; border: 1px solid var(--color-violet); background-color: #fff; color: var(--color-violet); font-size: var(--fs-16);}
+.SAPservice-wrapper .ITO-section .benefits ul li:nth-child(even) {background-color: var(--color-violet); border: 1px solid var(--color-violet); color: var(--color-gray-0);}
+
+/*********************** Data&Bi-page *************************/
+
+.Data-Bi-wrapper .head-section .Data-Bi-img {width: 100%; height: 300px; background: url(../img/Service-Data&BI.svg) no-repeat center center; background-size: cover;}
+.Data-Bi-wrapper .why-section {width: 100%; height: 800px; background-color: var(--color-gray-0);}
+.Data-Bi-wrapper .why-section .BI-txt {padding:var(--el-wide) 0;}
+.Data-Bi-wrapper .what-section .container {margin-top: calc(var(--el-section) - 20rem)}
+.Data-Bi-wrapper .head-section .rectangle {position: relative;top: 20rem; width: 100%; max-width: 1500px; height: 120px; margin: 0 auto; background-color: #fff;}
+
+
+/*********************** Salesforce C&I-page *************************/
+.salesforce-wrapper .head-section .head-img {width: 100%; height: 300px;  background: url(../img/sales-header.svg) no-repeat center; background-size: cover;}
+.salesforce-wrapper .head-section .head-img .container {display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%;}
+.salesforce-wrapper .head-section .head-img .container .txt h2 {color: var(--color-gray-0);}
+.salesforce-wrapper .head-section .head-img .container .txt p {color: var(--color-gray-4); font-size: var(--fs-18); line-height: 160%; margin-top: var(--el-medium);}
+.salesforce-wrapper .head-section .head-img .container .salesforce-logo {width: 250px; height: 174px; background: url(../img/Salesforce.com_logo.svg) no-repeat center; }
+.salesforce-wrapper .why-section {background-color: #F7FBFF;}
+.salesforce-wrapper .why-section .container{display: flex; align-items: center; justify-content: space-between; }
+.salesforce-wrapper .why-section .SF-txt {display: flex; flex-direction: column; align-items: start;}
+.salesforce-wrapper .why-section .SF-txt p {text-align: start; margin-bottom: 0;}
+.salesforce-wrapper .why-section .img {width: 750px; height: 418px; background: url(../img/Service-Salesforce-C&I.svg) no-repeat center center; background-size: cover;}
+
+.salesforce-wrapper .benefits-section {position: relative; text-align: center;}
+.salesforce-wrapper .benefits-section .benefit-img {position: absolute; top: 9rem; right: 0; left: 0; width: 1000px; height: 1000px; margin: 0 auto; background: url(../img/Salesforce-circle.svg) no-repeat center; background-size: cover;}
+.salesforce-wrapper .benefits-section button {margin-top: 63rem;}
+
+/******************************** company ******************************/
+.company-wrapper .location{position: absolute; top: 10%;}
+.company-wrapper .location ul li:nth-child(2)::after{content: ''; display: none;}
+.company-wrapper .txt span {font-size: var(--fs-30); color: var(--color-violet);}
+.company-wrapper .txt p {margin-top: var(--el-normal); font-weight: var(--fw-500); font-size: var(--fs-48); color: var(--color-gray-0); line-height: 150%;}
+body:has(.company-wrapper) {background-color: #191919;}
+.company-wrapper .head-section {padding-top: 0;}
+.company-wrapper .head-section h1 {font-size: var(--fs-60); color: var(--color-gray-0); margin-bottom: 0; position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;}
+.company-wrapper .head-section .head-img {position: relative; width: 100%; height: 900px; background: url(../img/Company-img1.svg) no-repeat center bottom; background-size: cover;}
+.company-wrapper .head-section .container {margin-top: 0;}
+
+.company-wrapper .second-section .contents-box {position: relative; display: flex; justify-content: space-between;}
+.company-wrapper .second-section .contents-box::after {content: ''; position: absolute; width: 1092px; height: 1027px; top: 0; right: -27rem; background: url(../img/company-gra1.svg) no-repeat center; background-size: cover;}
+.company-wrapper .second-section .contents-box ul{position: relative;display: flex; flex-direction: column; align-items: flex-start; gap: 7.5rem; margin-top: 12rem;}
+.company-wrapper .second-section .contents-box ul::after {content: ''; position: absolute; top: -2rem; left: -2rem; width: 1px; height: 120%; background-color: var(--color-gray-8);}
+.company-wrapper .second-section .contents-box ul li span {color: var(--color-gray-5); font-size: var(--fs-16);}
+.company-wrapper .second-section .contents-box ul li p {color: var(--color-gray-0); font-size: var(--fs-60); font-weight: var(--fw-600);}
+.company-wrapper .second-section .diamond {width: 100%; height: 850px; background: url(../img/company-diamond.svg) no-repeat center; margin-top: 20rem; }
+.company-wrapper .third-section .img-box {width: 100%; height: 820px; background: url(../img/company-img.svg) no-repeat center center; background-size: cover;}
+.company-wrapper .third-section .container .txt {margin-top: -16rem;}
+.company-wrapper .third-section .container>p {margin-top: 24.063rem; font-size: var(--fs-24); text-align: center; line-height: 160%; color: var(--color-gray-0);}
+.company-wrapper .third-section .container .circle-graphic {position: relative; width: 100%; height: 1294px; margin: -8rem auto; background: url(../img/company-circle.svg) no-repeat center; }
+.company-wrapper .third-section .container .circle-graphic .gradation {position: absolute; right: -9rem;  width: 100%; height: 1200px; background: url(../img/company-gra2.png) no-repeat center; z-index: -1; background-size: contain;}
+
+/******************************** customer story *****************************/
+.customer-wrapper .location ul li:nth-child(2)::after{content: ''; display: none;}
+.customer-wrapper .story-section ul {display: flex; flex-direction: column; gap: 5.625rem;} 
+.customer-wrapper .story-section ul:last-child {margin-top: 5rem;}
+.customer-wrapper .story-section ul li {background-color: var(--color-gray-0); width: 530px; height: auto; padding: 2.813rem; border-radius: 0.938rem;}
+.customer-wrapper .story-section ul li .logo-img {width: 250px; height: 250px;     background: url(../img/Coway.png) no-repeat center center; margin: 0 auto;}
+.customer-wrapper .story-section ul li .title {display: flex; align-items: center; gap: 0.75rem;}
+.customer-wrapper .story-section ul li .title p {color: var(--color-gray-8); font-weight: var(--fw-500); font-size: var(--fs-24);}
+.customer-wrapper .story-section ul li .title .sub-title {width: fit-content; padding: 3px 12px; border-radius: 0.563rem; background-color: var(--color-gray-2); color: var(--color-gray-7); font-size: var(--fs-16); font-weight: var(--fw-500); }
+.customer-wrapper .story-section ul li .story-txt {display: flex; flex-direction: column; gap: 1.5rem;}
+.customer-wrapper .story-section ul li .story-txt p {color: var(--color-gray-7); font-size: var(--fs-18); line-height: 160%;}
+.customer-wrapper .story-section ul li .story-txt span {color: var(--color-gray-7); font-size: var(--fs-16); line-height: 160%;}
+
+.customer-wrapper .story-section .container {display: flex; justify-content: center; gap: 4.375rem;}
+.customer-wrapper .story-section .container .line {width: 1px; height: 2000px; background-color: var(--color-gray-3);}
+
+
+.container.sub-nav-container {height: 2rem; margin-top: 1.688rem;}
+.sub-nav ul {display: flex; gap: 3.75rem;}
+.sub-nav ul li a {color: var(--color-gray-4); font-size: var(--fs-18); font-weight: var(--fw-500); transition: all 1s ease;}
+.sub-nav ul li a:hover {color: var(--color-gray-9); transition: all 1s ease;}
+.sub-nav ul li a:hover::after {content: ''; display: inline-block; width: 100%; height: 2px; border-bottom: 2px solid var(--color-gray-9); transition: all 1s ease;}
